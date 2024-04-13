@@ -98,14 +98,14 @@ const formerPHDStudents = [
   { image: "", name: "Dr. Bapurao Sudam Lad", year: "Ph.D., 2018", linkedIn: "", description: "" },
   { image: "", name: "Dr. Dharmendra Singh", year: "2017 - 2018", linkedIn: "", description: "Currently Working as a Chemist at ONGC" },
   { image: "", name: "Dr. Vinaykumar Kanchupalli", year: "Ph.D., 2016", linkedIn: "", description: "Inspire Faculty at NIPER Hyderabad" },
-  { image: "", name: "Dr. Jagadeesh Kalepu", year: "Ph.D., 2016", linkedIn: "", description: "Post Doctoral Fellow, Uppsala University, Sweden" },
-  { image: "", name: "Dr. Sudam Dawande Ganpat", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, Institute of Madras, Chennai" },
+  { image: "", name: "Dr. Jagadeesh Kalepu", year: "Ph.D., 2016", linkedIn: "", description: "Currently Working as a Chemist at Syngene, Bangalore" },
+  { image: "", name: "Dr. Sudam Dawande Ganpat", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, IIT Madras, Chennai" },
   { image: "", name: "Dr. Kuldeep Singh Rathore", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, Department of Higher Education, MP" },
 ];
 
 const formerMScStudents = [
-  { image: "", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Graduated from IISER, Bhopal" },
-  { image: "", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany" },
+  { image: "", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Junior Technical Inspector at Coal India Ltd." },
+  { image: "", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Graduate Student, INM-Leibniz Institute for New Materials, Saarbrücken, Germany" },
   { image: "", name: "Sumit K. Prajapati", year: "M.S., 2014", linkedIn: "", description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany" },
   { image: "", name: "Mandeep Harode", year: "M.S., 2013", linkedIn: "", description: "Graduate Student, IIT Indore" },
 ];
