@@ -11,7 +11,7 @@ const publicationsList = [
   {
     id: 30,
     title:
-      "[3+3]-Annulation of Diazoenals and α-Mercapto Ketones Via Pro-tic Sulfonium Ylides: Direct Synthesis of 2H-Thiopyrans-An Inno-vative Progenitors for Unstudied 2H-Thiopyran-2-ones and 4H-Thiopyran-4-ones (Just Accepted)",
+      "[3+3]-Annulation of Diazoenals and α-Mercapto Ketones Via Protic Sulfonium Ylides: Direct Synthesis of 2H-Thiopyrans-An Inno-vative Progenitors for Unstudied 2H-Thiopyran-2-ones and 4H-Thiopyran-4-ones (Just Accepted)",
     authors: "Pratap Kumar Mandal, Rahul Chakrawarti, and Sreenivas Katukojvala*",
     link: "",
     tag: "",
