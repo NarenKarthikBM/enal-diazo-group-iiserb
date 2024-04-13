@@ -176,7 +176,11 @@ function displayFormerPHDStudents() {
 
   for (var i = 0; i < formerPHDStudents.length; i++) {
     let formerPHDStudent = formerPHDStudents[i];
-    group.innerHTML = group.innerHTML + `<li class="my-3 hover-card shadow-sm list-group-item"><b>${formerPHDStudent.name}</b> (${formerPHDStudent.year}) - ${formerPHDStudent.description}</li>`;
+    group.innerHTML =
+      group.innerHTML +
+      `<li class="my-3 hover-card shadow-sm list-group-item"><b>${formerPHDStudent.name}</b> (${formerPHDStudent.year}) ${formerPHDStudent.description.length != 0 ? "-" : ""} ${
+        formerPHDStudent.description
+      }</li>`;
   }
 }
 function displayFormerMScStudents() {
@@ -185,7 +189,11 @@ function displayFormerMScStudents() {
 
   for (var i = 0; i < formerMScStudents.length; i++) {
     let formerMScStudent = formerMScStudents[i];
-    group.innerHTML = group.innerHTML + `<li class="my-3 hover-card shadow-sm list-group-item"><b>${formerMScStudent.name}</b> (${formerMScStudent.year}) - ${formerMScStudent.description}</li>`;
+    group.innerHTML =
+      group.innerHTML +
+      `<li class="my-3 hover-card shadow-sm list-group-item"><b>${formerMScStudent.name}</b> (${formerMScStudent.year}) ${formerMScStudent.description.length != 0 ? "-" : ""} ${
+        formerMScStudent.description
+      }</li>`;
   }
 }
 function displayProjectStaffAndInterns() {
@@ -194,6 +202,10 @@ function displayProjectStaffAndInterns() {
 
   for (var i = 0; i < projectStaffAndInterns.length; i++) {
     let projectStaffAndIntern = projectStaffAndInterns[i];
-    group.innerHTML = group.innerHTML + `<li class="my-3 hover-card shadow-sm list-group-item"><b>${projectStaffAndIntern.name}</b> - ${projectStaffAndIntern.description}</li>`;
+    group.innerHTML =
+      group.innerHTML +
+      `<li class="my-3 hover-card shadow-sm list-group-item"><b>${projectStaffAndIntern.name}</b> ${projectStaffAndIntern.description.length != 0 ? "-" : ""} ${
+        projectStaffAndIntern.description
+      }</li>`;
   }
 }
