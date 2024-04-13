@@ -96,7 +96,7 @@ const formerPHDStudents = [
   { image: "", name: "Dr. Laxman Thorbole", year: "Ph.D., 2023", linkedIn: "", description: "Currently working as a Chemist at Macleods, Mumbai." },
   { image: "", name: "Dr. Haribabu Chennamsetti", year: "Ph.D., 2019", linkedIn: "", description: "Associate Scientist at Aragen LifeSciences Pvt Ltd." },
   { image: "", name: "Dr. Bapurao Sudam Lad", year: "Ph.D., 2018", linkedIn: "", description: "" },
-  { image: "", name: "Dr. Dharmendra Singh", year: "2017 - 2018", linkedIn: "", description: "Currently Working as a Chemist at ONGC" },
+  { image: "", name: "Dharmendra Singh", year: "2017 - 2018", linkedIn: "", description: "Currently Working as a Chemist at ONGC" },
   { image: "", name: "Dr. Vinaykumar Kanchupalli", year: "Ph.D., 2016", linkedIn: "", description: "Inspire Faculty at NIPER Hyderabad" },
   { image: "", name: "Dr. Jagadeesh Kalepu", year: "Ph.D., 2016", linkedIn: "", description: "Currently Working as a Chemist at Syngene, Bangalore" },
   { image: "", name: "Dr. Sudam Dawande Ganpat", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, IIT Madras, Chennai" },
@@ -104,8 +104,16 @@ const formerPHDStudents = [
 ];
 
 const formerMScStudents = [
+  { image: "", name: "Nitesh Jarwal", year: "M.S., 2023", linkedIn: "", description: "" },
+  { image: "", name: "Siddhant Amol Ganvir", year: "M.S., 2023", linkedIn: "", description: "" },
+  { image: "", name: "Pallav Sharma", year: "M.S., 2022", linkedIn: "", description: "" },
+  { image: "", name: "Shubham Singh", year: "M.S., 2021", linkedIn: "", description: "" },
+  { image: "", name: "Pavan Goturi", year: "M.S., 2020", linkedIn: "", description: "" },
+  { image: "", name: "Parvesh Dagar", year: "M.S., 2020", linkedIn: "", description: "" },
+  { image: "", name: "Tarun Kumar Jayaswal", year: "M.S., 2020", linkedIn: "", description: "" },
+  { image: "", name: "Sundeep Patel", year: "M.S., 2019", linkedIn: "", description: "PhD, IISERB" },
   { image: "", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Junior Technical Inspector at Coal India Ltd." },
-  { image: "", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Graduate Student, INM-Leibniz Institute for New Materials, Saarbrücken, Germany" },
+  { image: "", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Works as scientist at ABX advanced biochemical compounds, Radeberg, Germany" },
   { image: "", name: "Sumit K. Prajapati", year: "M.S., 2014", linkedIn: "", description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany" },
   { image: "", name: "Mandeep Harode", year: "M.S., 2013", linkedIn: "", description: "Graduate Student, IIT Indore" },
 ];
