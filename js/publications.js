@@ -17,7 +17,7 @@ const publicationsList = [
     tag: "",
     leftCover: "OL 2024.jpg",
     rightCover: "",
-    fig: "30.jpg",
+    fig: "30.jpeg",
     selected: true,
   },
   {
@@ -342,7 +342,7 @@ function displayCards() {
             </div>
             <div class="col-md-${publication.rightCover ? 4 : 8} col-12  mb-3 mb-md-0">
             ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px">Latest</div>` : ""}
-              <h5 class="card-title">${publication.title}</h5>
+              <h5 class="card-title">${publication.id}. ${publication.title}</h5>
               <p class="card-body">
                 ${publication.authors}&nbsp;<a href="${publication.link}"><i>${publication.tag}</i></a>
               </p>
@@ -378,7 +378,7 @@ function displayCarousel() {
         </div>
         <div class="col-md-${publication.rightCover ? 4 : 9} col-12 mb-3 mb-md-0">
           ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px">Latest</div>` : ""}
-          <h5 class="card-title">${publication.title}</h5>
+          <h5 class="card-title">${publication.id}. ${publication.title}</h5>
           <p class="card-body">
             ${publication.authors}&nbsp;<a href="${publication.link}"><i>${publication.tag}</i></a>
           </p>
