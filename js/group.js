@@ -2,8 +2,8 @@ const currentMembers = [
   {
     image: "/images/members/pratap-k-mandal.png",
     name: "Dr. Pratap K Mandal",
-    post: "Graduate Student",
-    education: "M.Sc., Pondicherry University",
+    post: "PhD, IISERB",
+    education: "",
     linkedIn: "",
     description:
       "Pratap was born and brought up in Haldia, West Bengal. He has done his B.Sc from Midnapore college. After completing his M.Sc from Pondicherry University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Other than lab works he loves playing badminton, cricket and listening audio stories.",
@@ -11,8 +11,8 @@ const currentMembers = [
   {
     image: "/images/members/saikat-chatterjee.png",
     name: "Dr. Saikat Chatterjee",
-    post: "Graduate Student",
-    education: "M.Sc., BHU",
+    post: "PhD, IISERB",
+    education: "",
     linkedIn: "",
     description:
       "Saikat was born and brought up in Shantiniketan, West Bengal. He has done his B.Sc from Burdwan University. After completing his M.Sc from B.H.U, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Beyond the lab, he find solace and inspiration in the pages of fiction and nonfiction, particularly exploring human psychology, behavioral science, and philosophy. Additionally, he enjoy honing his strategic skills through the timeless game of chess.",
@@ -39,7 +39,7 @@ const currentMembers = [
   },
   {
     image: "/images/members/chayan.jpg",
-    name: "Chayan",
+    name: "Chayan Kumar Kundu",
     post: "Graduate Student",
     education: "M.Sc., Siddharth University, UP",
     linkedIn: "",
@@ -93,11 +93,11 @@ const currentMembers = [
 ];
 
 const formerPHDStudents = [
-  { image: "", name: "Dr. Laxman Thorbole", year: "Ph.D., 2023", linkedIn: "", description: "Currently working as a Chemist at Macleods." },
+  { image: "", name: "Dr. Laxman Thorbole", year: "Ph.D., 2023", linkedIn: "", description: "Currently working as a Chemist at Macleods, Mumbai." },
   { image: "", name: "Dr. Haribabu Chennamsetti", year: "Ph.D., 2019", linkedIn: "", description: "Associate Scientist at Aragen LifeSciences Pvt Ltd." },
-  { image: "", name: "Dr. Bapurao Sudam Lad", year: "Ph.D., 2018", linkedIn: "", description: "Post Doctoral Fellow, IISER Bhopal" },
+  { image: "", name: "Dr. Bapurao Sudam Lad", year: "Ph.D., 2018", linkedIn: "", description: "" },
   { image: "", name: "Dr. Dharmendra Singh", year: "2017 - 2018", linkedIn: "", description: "Currently Working as a Chemist at ONGC" },
-  { image: "", name: "Dr. Vinaykumar Kanchupalli", year: "Ph.D., 2016", linkedIn: "", description: "Post Doctoral Fellow, Loyola University, Chicago, USA" },
+  { image: "", name: "Dr. Vinaykumar Kanchupalli", year: "Ph.D., 2016", linkedIn: "", description: "Inspire Faculty at NIPER Hyderabad" },
   { image: "", name: "Dr. Jagadeesh Kalepu", year: "Ph.D., 2016", linkedIn: "", description: "Post Doctoral Fellow, Uppsala University, Sweden" },
   { image: "", name: "Dr. Sudam Dawande Ganpat", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, Institute of Madras, Chennai" },
   { image: "", name: "Dr. Kuldeep Singh Rathore", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, Department of Higher Education, MP" },
