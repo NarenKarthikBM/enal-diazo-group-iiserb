@@ -7,14 +7,17 @@ const currentMembers = [
     linkedIn: "",
     description:
       "Pratap was born and brought up in Haldia, West Bengal. He has done his B.Sc from Midnapore college. After completing his M.Sc from Pondicherry University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Other than lab works he loves playing badminton, cricket and listening audio stories.",
-    },
-  { image: "/images/members/saikat-chatterjee.png", 
-  name: "Dr. Saikat Chatterjee", 
-  post: "Graduate Student", 
-  education: "M.Sc., BHU", 
-  linkedIn: "", 
-  description: "Saikat was born and brought up in Shantiniketan, West Bengal. He has done his B.Sc from Burdwan University. After completing his M.Sc from B.H.U, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Beyond the lab, he find solace and inspiration in the pages of fiction and nonfiction, particularly exploring human psychology, behavioral science, and philosophy. Additionally, he enjoy honing his strategic skills through the timeless game of chess.", },
-  
+  },
+  {
+    image: "/images/members/saikat-chatterjee.png",
+    name: "Dr. Saikat Chatterjee",
+    post: "Graduate Student",
+    education: "M.Sc., BHU",
+    linkedIn: "",
+    description:
+      "Saikat was born and brought up in Shantiniketan, West Bengal. He has done his B.Sc from Burdwan University. After completing his M.Sc from B.H.U, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Beyond the lab, he find solace and inspiration in the pages of fiction and nonfiction, particularly exploring human psychology, behavioral science, and philosophy. Additionally, he enjoy honing his strategic skills through the timeless game of chess.",
+  },
+
   {
     image: "/images/members/mohammad-arshad.png",
     name: "Mohammad Arshad",
@@ -24,7 +27,7 @@ const currentMembers = [
     description:
       "Arshad was born and brought up in Mau, Uttar Pradesh. He has completed his B.Sc and M.Sc from B.H.U. After his M.Sc, he joined Prof. Katukojvala’s group at IISER Bhopal in July 2017 to pursue his Ph.D. Other than lab works he loves playing cricket",
   },
-  
+
   {
     image: "/images/members/kamakshya-prasad-mahata.jpg",
     name: "Kamakshya Prasad Mahata",
@@ -98,8 +101,6 @@ const formerPHDStudents = [
   { image: "", name: "Dr. Jagadeesh Kalepu", year: "Ph.D., 2016", linkedIn: "", description: "Post Doctoral Fellow, Uppsala University, Sweden" },
   { image: "", name: "Dr. Sudam Dawande Ganpat", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, Institute of Madras, Chennai" },
   { image: "", name: "Dr. Kuldeep Singh Rathore", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, Department of Higher Education, MP" },
-  
-  
 ];
 
 const formerMScStudents = [
@@ -136,7 +137,7 @@ const projectStaffAndInterns = [
   { image: "", name: "Ankita Agarwal", description: "Intern, 2016, M.S. Student, ISM Dhanbad" },
   { image: "", name: "Nivedita Majhi", description: "Intern, 2016, M.S. Student, ISM Dhanbad" },
   { image: "", name: "K. Sujit Prasad", description: "Intern, 2015, M.Sc., Visva Bharati University, Santiniketan" },
-  ];
+];
 
 function displayCurrentMemberCards() {
   var group = document.getElementById("current-members");
@@ -149,7 +150,7 @@ function displayCurrentMemberCards() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
+            <img src="/~sk/${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${currentMember.name}</h5>

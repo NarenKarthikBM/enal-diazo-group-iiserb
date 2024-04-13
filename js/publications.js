@@ -9,10 +9,22 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 30,
+    title:
+      "[3+3]-Annulation of Diazoenals and α-Mercapto Ketones Via Pro-tic Sulfonium Ylides: Direct Synthesis of 2H-Thiopyrans-An Inno-vative Progenitors for Unstudied 2H-Thiopyran-2-ones and 4H-Thiopyran-4-ones (Just Accepted)",
+    authors: "Pratap Kumar Mandal, Rahul Chakrawarti, and Sreenivas Katukojvala*",
+    link: "",
+    tag: "",
+    leftCover: "OL 2024.jpg",
+    rightCover: "",
+    fig: "30.jpg",
+    selected: true,
+  },
+  {
     id: 29,
     title:
       "Triple Nucleophilic Head-to-Tail Cascade Polycyclization of Diazodienals via Combination Catalysis: Direct Access to Cyclopentane Fused Aza-Polycycles with Six-Contiguous Stereocenters (manuscript under minor revision)",
-    authors: "Haribabu Chennamsetti, Kuldeep Singh Rathore,† Saikat Chatterjee, Pratap Kumar Mandal, and Sreenivas Katukojvala* ",
+    authors: "Haribabu Chennamsetti, Kuldeep Singh Rathore,† Saikat Chatterjee, Pratap Kumar Mandal, and Sreenivas Katukojvala*",
     link: "https://chemrxiv.org/engage/chemrxiv/article-details/65c751d1e9ebbb4db90cbd2d",
     tag: "Link ",
     leftCover: "JACS Au 2024.jpg",
