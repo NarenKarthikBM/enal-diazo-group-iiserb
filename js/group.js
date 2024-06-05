@@ -158,7 +158,7 @@ function displayCurrentMemberCards() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/~sk/${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
+            <img src="/${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${currentMember.name}</h5>
