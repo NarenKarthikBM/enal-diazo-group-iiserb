@@ -1,66 +1,80 @@
 const currentMembers = [
   {
-    image: "/images/members/pratap-k-mandal.png",
+    image: "images/members/pratap-k-mandal.png",
     name: "Dr. Pratap K Mandal",
     post: "PhD, IISERB",
     education: "",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Pratap was born and brought up in Haldia, West Bengal. He has done his B.Sc from Midnapore college. After completing his M.Sc from Pondicherry University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Other than lab works he loves playing badminton, cricket and listening audio stories.",
   },
   {
-    image: "/images/members/saikat-chatterjee.png",
+    image: "images/members/saikat-chatterjee.png",
     name: "Dr. Saikat Chatterjee",
     post: "PhD, IISERB",
     education: "",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Saikat was born and brought up in Shantiniketan, West Bengal. He has done his B.Sc from Burdwan University. After completing his M.Sc from B.H.U, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Beyond the lab, he find solace and inspiration in the pages of fiction and nonfiction, particularly exploring human psychology, behavioral science, and philosophy. Additionally, he enjoy honing his strategic skills through the timeless game of chess.",
   },
 
   {
-    image: "/images/members/mohammad-arshad.png",
+    image: "images/members/mohammad-arshad.png",
     name: "Mohammad Arshad",
     post: "Graduate Student",
     education: "M.Sc., BHU",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Arshad was born and brought up in Mau, Uttar Pradesh. He has completed his B.Sc and M.Sc from B.H.U. After his M.Sc, he joined Prof. Katukojvala’s group at IISER Bhopal in July 2017 to pursue his Ph.D. Other than lab works he loves playing cricket",
   },
 
   {
-    image: "/images/members/kamakshya-prasad-mahata.jpg",
+    image: "images/members/kamakshya-prasad-mahata.jpg",
     name: "Kamakshya Prasad Mahata",
     post: "Graduate Student",
     education: "M.Sc., BHU",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Kamakshya Prasad  was born and brought up in Purulia, West Bengal. He did his B.Sc from J.K. college, Purulia and completed his M.Sc from B.H.U, Varanasi. He joined Dr.  Katukojvala’s group at IISER Bhopal in January 2019 to pursue his Doctoral Programme. Other than Lab. works, he loves playing Keyboard, watching/playing cricket and reading books.",
   },
   {
-    image: "/images/members/chayan.jpg",
+    image: "images/members/chayan.jpg",
     name: "Chayan Kumar Kundu",
     post: "Graduate Student",
     education: "M.Sc., Siddharth University, UP",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Chayan was born and brought up in Gonda, Uttar Pradesh. He has done his B.Sc from Dr. R. M. L. Awadh University, Ayodhya U.P. After completing his M.Sc from Siddharth University, U.P, he joined Prof. Katukojvala’s group at IISER Bhopal in July 2019 to pursue his Ph.D. Other than lab works he loves playing games.",
   },
   {
-    image: "/images/members/rahul-chakrawarti.jpg",
+    image: "images/members/rahul-chakrawarti.jpg",
     name: "Rahul Chakrawarti",
     post: "Graduate Student",
     education: "M.Sc., VNIT Nagpur",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Rahul was born and brought up in Seoni, Madhya Pradesh. He has done his B.Sc from Bhopal. After completing his M.Sc from VNIT, Nagpur , he joined Prof. Katukojvala’s group at IISER Bhopal in August 2022 to pursue his Ph.D. Other than lab works he loves playing cricket and gaming",
   },
   {
-    image: "/images/members/sudhir-muduli.jpg",
+    image: "images/members/sudhir-muduli.jpg",
     name: "Sudir Muduli",
     post: "Graduate Student",
     education: "M.Sc., Central University of Rajasthan",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Sudhir was born and brought up in Angul, Odisha. He has done his B.Sc from Ravenshaw University, Odisha. After completing his M.Sc from Central University of Rajasthan, he joined Prof. Katukojvala’s group at IISER Bhopal in July 2022 to pursue his Ph.D. Other than lab works he loves to play badminton, cricket , practice yoga and reading spiritual books.",
   },
@@ -70,25 +84,31 @@ const currentMembers = [
     post: "Graduate Student",
     education: "M.Sc., Aligarh Muslim University",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Shavan was born and brought up in Hardoi, Uttar Pradesh. He has done his B.Sc from ARSD college, University of Delhi. After completing his M.Sc from Aligarh Muslim University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2024 to pursue his Ph.D. Other than lab works he loves playing cricket, kabaddi and reading books.",
   },
   {
-    image: "/images/members/durjay-roy.jpg",
+    image: "images/members/durjay-roy.jpg",
     name: "Durjay Roy",
     post: "MS Project Student, IISER Bhopal",
     education: "",
     linkedIn: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
     description:
       "Durjay was born and brought up in Jalpaiguri, West Bengal. He is a BS-MS student of IISER Bhopal. He joined Prof. Katukojvala’s group at in August 2023 as a MS project student. Other than lab works he loves playing eSports, and watching football.",
   },
   {
-    image: "/images/members/rachit-singh-chauhan.jpg",
+    image: "images/members/rachit-singh-chauhan.jpg",
     name: "Rachit Singh Chauhan",
     post: "MS Project Student, IISER Bhopal",
     education: "",
     linkedIn: "",
     description: "",
+    contactNumber: "XXXXXXXXXXXX",
+    emailID: "XXX@iiserb.ac.in",
   },
 ];
 
@@ -164,6 +184,8 @@ function displayCurrentMemberCards() {
             <h5 class="card-title">${currentMember.name}</h5>
             <p class="card-text" >${currentMember.description}</p>
             <p class="card-text"><b>${currentMember.post}<br />${currentMember.education}</p>
+            <div class="d-flex gap-2 align-items-center justify-content-center"><i class="bi bi-telephone-fill"></i>${currentMember.contactNumber}</div>
+            <div class="d-flex gap-2 align-items-center justify-content-center"><i class="bi bi-envelope-fill"></i><a href="mailto:${currentMember.emailID}">${currentMember.emailID}</a></div>
           </div>
         </div>
     </div>`;

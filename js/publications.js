@@ -403,24 +403,39 @@ function displaySmallCarousel() {
   carousel.innerHTML = "";
   let n = 5;
 
-  while (n--) {
-    for (const element of publicationsList) {
-      let publication = element;
-      carousel.innerHTML =
-        carousel.innerHTML +
-        `<div style="width: 100px;">
+  for (const element of publicationsList) {
+    let publication = element;
+    carousel.innerHTML += `<div style="width: 100px;">
         <a href="${publication.link}" title="${publication.title}" class="thumb">
           <img class="img-fluid mx-auto d-block hover-card" src="/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
         </a>
       </div>`;
-    }
   }
+
+  while (n--) {
+    console.log(1);
+    carousel.innerHTML += carousel.innerHTML;
+  }
+
+  // self.setInterval(() => {
+  //   for (const element of publicationsList) {
+  //     let publication = element;
+  //     carousel.innerHTML =
+  //       carousel.innerHTML +
+  //       `<div style="width: 100px;">
+  //       <a href="${publication.link}" title="${publication.title}" class="thumb">
+  //         <img class="img-fluid mx-auto d-block hover-card" src="/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
+  //       </a>
+  //     </div>`;
+  //   }
+  // }, 1500);
+
   var smallCarousel = document.getElementById("horizontal-container");
 
   const carouselScrollWidth = smallCarousel.scrollWidth;
   // window.addEventListener("load", () => {
   self.setInterval(() => {
-    if (smallCarousel.scrollLeft !== carouselScrollWidth) {
+    if (smallCarousel.scrollLeft + smallCarousel.offsetWidth !== carouselScrollWidth) {
       smallCarousel.scrollTo(smallCarousel.scrollLeft + 1, 0);
     } else {
       smallCarousel.scrollTo(0, 0);
