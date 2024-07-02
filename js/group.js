@@ -200,9 +200,18 @@ function displayFormerPHDStudents() {
     let formerPHDStudent = formerPHDStudents[i];
     group.innerHTML =
       group.innerHTML +
-      `<li class="my-3 hover-card shadow-sm list-group-item"><b>${formerPHDStudent.name}</b> (${formerPHDStudent.year}) ${formerPHDStudent.description.length != 0 ? "-" : ""} ${
-        formerPHDStudent.description
-      }</li>`;
+      `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
+        <div class="card-body row justify-content-center align-items-center px-4">
+          <div class="col-md-4 col-12">
+            <img src="/${formerPHDStudent.image}" class="card-img-top" alt="${formerPHDStudent.name}" />
+          </div>
+          <div class="card-body col-md-8 col-12">
+            <h5 class="card-title">${formerPHDStudent.name}</h5>
+            <p class="card-text"><b>${formerPHDStudent.year}</b></p>
+            <p class="card-text">${formerPHDStudent.description.length != 0 ? "-" : ""}</p>
+          </div>
+        </div>
+    </div>`;
   }
 }
 function displayFormerMScStudents() {
@@ -213,9 +222,18 @@ function displayFormerMScStudents() {
     let formerMScStudent = formerMScStudents[i];
     group.innerHTML =
       group.innerHTML +
-      `<li class="my-3 hover-card shadow-sm list-group-item"><b>${formerMScStudent.name}</b> (${formerMScStudent.year}) ${formerMScStudent.description.length != 0 ? "-" : ""} ${
-        formerMScStudent.description
-      }</li>`;
+      `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
+        <div class="card-body row justify-content-center align-items-center px-4">
+          <div class="col-md-4 col-12">
+            <img src="/${formerMScStudent.image}" class="card-img-top" alt="${formerMScStudent.name}" />
+          </div>
+          <div class="card-body col-md-8 col-12">
+            <h5 class="card-title">${formerMScStudent.name}</h5>
+            <p class="card-text"><b>${formerMScStudent.year}</b></p>
+            <p class="card-text">${formerMScStudent.description.length != 0 ? "-" : ""}</p>
+          </div>
+        </div>
+    </div>`;
   }
 }
 function displayProjectStaffAndInterns() {
@@ -226,8 +244,16 @@ function displayProjectStaffAndInterns() {
     let projectStaffAndIntern = projectStaffAndInterns[i];
     group.innerHTML =
       group.innerHTML +
-      `<li class="my-3 hover-card shadow-sm list-group-item"><b>${projectStaffAndIntern.name}</b> ${projectStaffAndIntern.description.length != 0 ? "-" : ""} ${
-        projectStaffAndIntern.description
-      }</li>`;
+      `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
+        <div class="card-body row justify-content-center align-items-center px-4">
+          <div class="col-md-4 col-12">
+            <img src="/${projectStaffAndIntern.image}" class="card-img-top" alt="${projectStaffAndIntern.name}" />
+          </div>
+          <div class="card-body col-md-8 col-12">
+            <h5 class="card-title">${projectStaffAndIntern.name}</h5>
+            <p class="card-text">${projectStaffAndIntern.description.length != 0 ? "-" : ""}</p>
+          </div>
+        </div>
+    </div>`;
   }
 }
