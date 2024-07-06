@@ -10,14 +10,13 @@ const groupNews = [
 const publicationsList = [
   {
     id: 31,
-    title:
-      "Enal-Azomethine Ylides: Application to the Synthesis of Functionalized Pyrroles",
+    title: "Enal-Azomethine Ylides: Application to the Synthesis of Functionalized Pyrroles",
     authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala",
     link: "https://pubs.rsc.org/en/content/articlelanding/2024/ob/d4ob00859f",
     tag: "",
-    leftCover: "OL 2024.jpg",
+    leftCover: "31.jpeg",
     rightCover: "",
-    fig: "30.jpeg",
+    fig: "31.jpeg",
     selected: true,
   },
   {
@@ -27,7 +26,7 @@ const publicationsList = [
     authors: "Pratap Kumar Mandal, Rahul Chakrawarti, and Sreenivas Katukojvala*",
     link: "https://pubs.acs.org/doi/abs/10.1021/acs.orglett.4c01033",
     tag: "",
-    leftCover: "OL 2024.jpg",
+    leftCover: "30.jpeg",
     rightCover: "",
     fig: "30.jpeg",
     selected: true,
@@ -39,7 +38,7 @@ const publicationsList = [
     authors: "Haribabu Chennamsetti, Kuldeep Singh Rathore,† Saikat Chatterjee, Pratap Kumar Mandal, and Sreenivas Katukojvala*",
     link: "https://chemrxiv.org/engage/chemrxiv/article-details/65c751d1e9ebbb4db90cbd2d",
     tag: "https://pubs.acs.org/doi/full/10.1021/jacsau.4c00134",
-    leftCover: "JACS Au 2024.jpg",
+    leftCover: "29.jpeg",
     rightCover: "",
     fig: "29.jpg",
     selected: true,
