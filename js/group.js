@@ -208,7 +208,8 @@ function displayFormerPHDStudents() {
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${formerPHDStudent.name}</h5>
             <p class="card-text"><b>${formerPHDStudent.year}</b></p>
-            <p class="card-text">${formerPHDStudent.description.length != 0 ? "-" : ""}</p>
+            <p class="card-text" >${formerPHDStudent.description}</p>
+            <p class="card-text">${formerPHDStudent.description.length != 0 ? formerPHDStudent.description : ""}</p>
           </div>
         </div>
     </div>`;
@@ -230,7 +231,7 @@ function displayFormerMScStudents() {
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${formerMScStudent.name}</h5>
             <p class="card-text"><b>${formerMScStudent.year}</b></p>
-            <p class="card-text">${formerMScStudent.description.length != 0 ? "-" : ""}</p>
+            <p class="card-text">${formerMScStudent.description.length != 0 ? formerMScStudent.description : ""}</p>
           </div>
         </div>
     </div>`;
@@ -251,7 +252,7 @@ function displayProjectStaffAndInterns() {
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${projectStaffAndIntern.name}</h5>
-            <p class="card-text">${projectStaffAndIntern.description.length != 0 ? "-" : ""}</p>
+            <p class="card-text">${projectStaffAndIntern.description.length != 0 ? projectStaffAndIntern.description : ""}</p>
           </div>
         </div>
     </div>`;
