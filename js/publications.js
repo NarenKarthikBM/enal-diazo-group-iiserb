@@ -9,11 +9,23 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 31,
+    title:
+      "Enal-Azomethine Ylides: Application to the Synthesis of Functionalized Pyrroles",
+    authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala",
+    link: "https://pubs.rsc.org/en/content/articlelanding/2024/ob/d4ob00859f",
+    tag: "",
+    leftCover: "OL 2024.jpg",
+    rightCover: "",
+    fig: "30.jpeg",
+    selected: true,
+  },
+  {
     id: 30,
     title:
       "[3+3]-Annulation of Diazoenals and α-Mercapto Ketones Via Protic Sulfonium Ylides: Direct Synthesis of 2H-Thiopyrans-An Inno-vative Progenitors for Unstudied 2H-Thiopyran-2-ones and 4H-Thiopyran-4-ones (Just Accepted)",
     authors: "Pratap Kumar Mandal, Rahul Chakrawarti, and Sreenivas Katukojvala*",
-    link: "",
+    link: "https://pubs.acs.org/doi/abs/10.1021/acs.orglett.4c01033",
     tag: "",
     leftCover: "OL 2024.jpg",
     rightCover: "",
@@ -26,7 +38,7 @@ const publicationsList = [
       "Triple Nucleophilic Head-to-Tail Cascade Polycyclization of Diazodienals via Combination Catalysis: Direct Access to Cyclopentane Fused Aza-Polycycles with Six-Contiguous Stereocenters (manuscript under minor revision)",
     authors: "Haribabu Chennamsetti, Kuldeep Singh Rathore,† Saikat Chatterjee, Pratap Kumar Mandal, and Sreenivas Katukojvala*",
     link: "https://chemrxiv.org/engage/chemrxiv/article-details/65c751d1e9ebbb4db90cbd2d",
-    tag: "Link ",
+    tag: "https://pubs.acs.org/doi/full/10.1021/jacsau.4c00134",
     leftCover: "JACS Au 2024.jpg",
     rightCover: "",
     fig: "29.jpg",
