@@ -214,7 +214,6 @@ function displayFormerPHDStudents() {
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${formerPHDStudent.name}</h5>
             <p class="card-text"><b>${formerPHDStudent.year}</b></p>
-            <p class="card-text" >${formerPHDStudent.description}</p>
             <p class="card-text">${formerPHDStudent.description.length != 0 ? formerPHDStudent.description : ""}</p>
           </div>
         </div>
