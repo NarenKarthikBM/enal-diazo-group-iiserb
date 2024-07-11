@@ -8,39 +8,38 @@ const groupNews = [
   { date: "Jan 2019", message: "Vinay joined as the Inspire faculty at NIPER HYDERABAD." },
 ];
 const publicationsList = [
+  
   {
     id: 31,
-    title: "Enal-Azomethine Ylides: Application to the Synthesis of Functionalized Pyrroles",
-    authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala",
-    link: "https://pubs.rsc.org/en/content/articlelanding/2024/ob/d4ob00859f",
-    tag: "",
-    leftCover: "31.jpeg",
+    title: "Enal-azomethine ylides: Application in the synthesis of functionalized pyrroles†‡",
+    authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala *",
+    link: "https://pubs.rsc.org/en/content/articlelanding/2024/ob/d4ob00859f/unauth",
+    tag: "Org. Biomol. Chem., 2024, (This article is part of the themed collection: Celebrating the 100th birthday of Professor Sukh Dev.)",
+    leftCover: "OBC 2024.jpg",
     rightCover: "",
-    fig: "31.jpeg",
-    selected: true,
+    fig: "OBC 24 Reaction scheme.jpg",
+    selected: false,
   },
   {
     id: 30,
-    title:
-      "[3+3]-Annulation of Diazoenals and α-Mercapto Ketones Via Protic Sulfonium Ylides: Direct Synthesis of 2H-Thiopyrans-An Inno-vative Progenitors for Unstudied 2H-Thiopyran-2-ones and 4H-Thiopyran-4-ones (Just Accepted)",
-    authors: "Pratap Kumar Mandal, Rahul Chakrawarti, and Sreenivas Katukojvala*",
-    link: "https://pubs.acs.org/doi/abs/10.1021/acs.orglett.4c01033",
-    tag: "",
-    leftCover: "30.jpeg",
+    title: "Triple Nucleophilic Head-to-Tail Cascade Polycyclization of Diazodienals via Combination Catalysis: Direct Access to Cyclopentane Fused Aza-Polycycles with Six-Contiguous Stereocenters",
+    authors: "Haribabu Chennamsetti, Kuldeep Singh Rathore, Saikat Chatterjee, Pratap Kumar Mandal, and Sreenivas Katukojvala*",
+    link: "https://pubs.acs.org/doi/full/10.1021/jacsau.4c00134",
+    tag: "JACS Au 2024, 4, 2099–2107",
+    leftCover: "JACS Au 2024.jpg",
     rightCover: "",
-    fig: "30.jpeg",
+    fig: "29.jpg",
     selected: true,
   },
   {
     id: 29,
-    title:
-      "Triple Nucleophilic Head-to-Tail Cascade Polycyclization of Diazodienals via Combination Catalysis: Direct Access to Cyclopentane Fused Aza-Polycycles with Six-Contiguous Stereocenters (manuscript under minor revision)",
-    authors: "Haribabu Chennamsetti, Kuldeep Singh Rathore,† Saikat Chatterjee, Pratap Kumar Mandal, and Sreenivas Katukojvala*",
-    link: "https://chemrxiv.org/engage/chemrxiv/article-details/65c751d1e9ebbb4db90cbd2d",
-    tag: "https://pubs.acs.org/doi/full/10.1021/jacsau.4c00134",
-    leftCover: "29.jpeg",
+    title: "[3+3] Annulation of Diazoenals and α‑Mercapto Ketones via ProticSulfonium Ylides: Direct Synthesis of 2H‑Thiopyrans, InnovativeProgenitors for Unstudied 2H‑Thiopyran-2-ones and 4H‑Thiopyran-4-ones",
+    authors: "Pratap Kumar Mandal, Rahul Chakrawarti, and Sreenivas Katukojvala* ",
+    link: "https://pubs.acs.org/doi/10.1021/acs.orglett.4c01033",
+    tag: "Org. Lett. 2024, 26, 3463–3468",
+    leftCover: "OL 2024.jpg",
     rightCover: "",
-    fig: "29.jpg",
+    fig: "30.jpeg",
     selected: true,
   },
   {
@@ -48,7 +47,7 @@ const publicationsList = [
     title: "Rh-Catalyzed Chemodivergent [3+3] Annulations of Diazoenals and α-Aminoketones: Direct Synthesis of Functionalized 1,2-Dihydropyridines and Fused 1,4-Oxazines",
     authors: "Pratap Kumar Mandal, Dr. Sreenivas Katukojvala*",
     link: "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.202303862",
-    tag: "Chem.Eur. J.2024,e202303862 (VIP Paper)",
+    tag: "Chem. Eur. J. 2024, 30, e202303862 (VIP Paper)",
     leftCover: "28.jpeg",
     rightCover: "28-1.jpg",
     fig: "28.webp",
@@ -349,7 +348,7 @@ function displayCards() {
       `<div class="hover-card card ${i == 0 ? "border-info" : ""} text-bg-light py-4 px-4 d-flex justify-content-center">
           <div class="row justify-content-evenly align-items-center">
             <div class="col-md-4 col-12 mb-3 mb-md-0">
-              <img src="/~sk/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
+              <img src="/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
             </div>
             <div class="col-md-${publication.rightCover ? 4 : 8} col-12  mb-3 mb-md-0">
             ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px">Latest</div>` : ""}
@@ -357,13 +356,13 @@ function displayCards() {
               <p class="card-body">
                 ${publication.authors}&nbsp;<a href="${publication.link}"><i>${publication.tag}</i></a>
               </p>
-              ${publication.fig ? `<img src="/~sk/images/publications/fig/${publication.fig}" class="rounded-start w-100 publication-fig" alt="27 Publication"  />` : ""}
+              ${publication.fig ? `<img src="/images/publications/fig/${publication.fig}" class="rounded-start w-100 publication-fig" alt="27 Publication"  />` : ""}
             </div>
             ${
               publication.rightCover
                 ? `
             <div class="col-md-4 col-12 mb-3 mb-md-0">
-              <img src="/~sk/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
+              <img src="/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
             </div>`
                 : ""
             }
@@ -385,7 +384,7 @@ function displayCarousel() {
       <div class="card ${i == 0 ? "border-info" : ""} text-bg-light py-4 px-4 d-flex justify-content-center" style="min-height: 500px;">
       <div class="row justify-content-evenly align-items-center">
         <div class="col-md-3 col-12 mb-3 mb-md-0">
-          <img src="/~sk/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
+          <img src="/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
         </div>
         <div class="col-md-${publication.rightCover ? 4 : 9} col-12 mb-3 mb-md-0">
           ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px">Latest</div>` : ""}
@@ -393,13 +392,13 @@ function displayCarousel() {
           <p class="card-body">
             ${publication.authors}&nbsp;<a href="${publication.link}"><i>${publication.tag}</i></a>
           </p>
-          ${publication.fig ? `<img src="/~sk/images/publications/fig/${publication.fig}" class="rounded-start publication-fig" alt="27 Publication" />` : ""}
+          ${publication.fig ? `<img src="/images/publications/fig/${publication.fig}" class="rounded-start publication-fig" alt="27 Publication" />` : ""}
         </div>
         ${
           publication.rightCover
             ? `
         <div class="col-md-4 col-12 mb-3 mb-md-0">
-          <img src="/~sk/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
+          <img src="/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
         </div>`
             : ""
         }
@@ -418,7 +417,7 @@ function displaySmallCarousel() {
     let publication = element;
     carousel.innerHTML += `<div style="width: 100px;">
         <a href="${publication.link}" title="${publication.title}" class="thumb">
-          <img class="img-fluid mx-auto d-block hover-card" src="/~sk/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
+          <img class="img-fluid mx-auto d-block hover-card" src="/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
         </a>
       </div>`;
   }
@@ -435,7 +434,7 @@ function displaySmallCarousel() {
   //       carousel.innerHTML +
   //       `<div style="width: 100px;">
   //       <a href="${publication.link}" title="${publication.title}" class="thumb">
-  //         <img class="img-fluid mx-auto d-block hover-card" src="/~sk/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
+  //         <img class="img-fluid mx-auto d-block hover-card" src="/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
   //       </a>
   //     </div>`;
   //   }
