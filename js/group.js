@@ -134,7 +134,13 @@ const formerMScStudents = [
   { image: "images/members/Unknown Photo.jpeg", name: "Sundeep Patel", year: "M.S., 2019", linkedIn: "", description: "PhD, IISERB" },
   { image: "images/members/Unknown Photo.jpeg", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Junior Technical Inspector at Coal India Ltd." },
   { image: "images/members/Unknown Photo.jpeg", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Works as scientist at ABX advanced biochemical compounds, Radeberg, Germany" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Sumit K. Prajapati", year: "M.S., 2014", linkedIn: "", description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany" },
+  {
+    image: "images/members/Unknown Photo.jpeg",
+    name: "Sumit K. Prajapati",
+    year: "M.S., 2014",
+    linkedIn: "",
+    description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany",
+  },
   { image: "images/members/Unknown Photo.jpeg", name: "Mandeep Harode", year: "M.S., 2013", linkedIn: "", description: "Graduate Student, IIT Indore" },
 ];
 
@@ -178,7 +184,7 @@ function displayCurrentMemberCards() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
+            <img src="/~sk/${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${currentMember.name}</h5>
@@ -203,7 +209,7 @@ function displayFormerPHDStudents() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/${formerPHDStudent.image}" class="card-img-top" alt="${formerPHDStudent.name}" />
+            <img src="/~sk/${formerPHDStudent.image}" class="card-img-top" alt="${formerPHDStudent.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${formerPHDStudent.name}</h5>
@@ -226,7 +232,7 @@ function displayFormerMScStudents() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/${formerMScStudent.image}" class="card-img-top" alt="${formerMScStudent.name}" />
+            <img src="/~sk/${formerMScStudent.image}" class="card-img-top" alt="${formerMScStudent.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${formerMScStudent.name}</h5>
@@ -248,7 +254,7 @@ function displayProjectStaffAndInterns() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/${projectStaffAndIntern.image}" class="card-img-top" alt="${projectStaffAndIntern.name}" />
+            <img src="/~sk/${projectStaffAndIntern.image}" class="card-img-top" alt="${projectStaffAndIntern.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${projectStaffAndIntern.name}</h5>
