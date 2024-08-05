@@ -184,7 +184,7 @@ function displayCurrentMemberCards() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/~sk/${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
+            <img src="/${currentMember.image}" class="card-img-top" alt="${currentMember.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${currentMember.name}</h5>
@@ -209,7 +209,7 @@ function displayFormerPHDStudents() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/~sk/${formerPHDStudent.image}" class="card-img-top" alt="${formerPHDStudent.name}" />
+            <img src="/${formerPHDStudent.image}" class="card-img-top" alt="${formerPHDStudent.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${formerPHDStudent.name}</h5>
@@ -231,7 +231,7 @@ function displayFormerMScStudents() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/~sk/${formerMScStudent.image}" class="card-img-top" alt="${formerMScStudent.name}" />
+            <img src="/${formerMScStudent.image}" class="card-img-top" alt="${formerMScStudent.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${formerMScStudent.name}</h5>
@@ -253,7 +253,7 @@ function displayProjectStaffAndInterns() {
       `<div class="hover-card shadow-sm card" style="width: 100%; max-width: 600px;">
         <div class="card-body row justify-content-center align-items-center px-4">
           <div class="col-md-4 col-12">
-            <img src="/~sk/${projectStaffAndIntern.image}" class="card-img-top" alt="${projectStaffAndIntern.name}" />
+            <img src="/${projectStaffAndIntern.image}" class="card-img-top" alt="${projectStaffAndIntern.name}" />
           </div>
           <div class="card-body col-md-8 col-12">
             <h5 class="card-title">${projectStaffAndIntern.name}</h5>

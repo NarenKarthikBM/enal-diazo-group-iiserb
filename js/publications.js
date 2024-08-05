@@ -9,6 +9,17 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 32,
+    title: "Rhodium-Catalyzed 3-Aza-Cope Rearrangement of Protic N-Allyl Enammonium Ylides Enabled by Resonance Assisted H-Bonding",
+    authors: "Laxman Anandrao Thorbole ,Sudhir Muduli ,Sreenivas Katukojvala *",
+    link: "https://chemrxiv.org/engage/chemrxiv/article-details/66a7c587c9c6a5c07a6b0337",
+    tag: "ChemRxiv",
+    leftCover: "ChemRxiv.png",
+    rightCover: "",
+    fig: "Sudhir 2024.jpg",
+    selected: false,
+  },
+  {
     id: 31,
     title: "Enal-azomethine ylides: Application in the synthesis of functionalized pyrroles†‡",
     authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala *",
@@ -18,17 +29,6 @@ const publicationsList = [
     rightCover: "",
     fig: "OBC 24 Reaction scheme.jpg",
     selected: false,
-  },
-  {
-    id: 31,
-    title: "Enal-Azomethine Ylides: Application to the Synthesis of Functionalized Pyrroles",
-    authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala",
-    link: "https://pubs.rsc.org/en/content/articlelanding/2024/ob/d4ob00859f",
-    tag: "",
-    leftCover: "31.jpeg",
-    rightCover: "",
-    fig: "31.jpeg",
-    selected: true,
   },
   {
     id: 30,
@@ -359,7 +359,7 @@ function displayCards() {
       `<div class="hover-card card ${i == 0 ? "border-info" : ""} text-bg-light py-4 px-4 d-flex justify-content-center">
           <div class="row justify-content-evenly align-items-center">
             <div class="col-md-4 col-12 mb-3 mb-md-0">
-              <img src="/~sk/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
+              <img src="/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
             </div>
             <div class="col-md-${publication.rightCover ? 4 : 8} col-12  mb-3 mb-md-0">
             ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px">Latest</div>` : ""}
@@ -367,13 +367,13 @@ function displayCards() {
               <p class="card-body">
                 ${publication.authors}&nbsp;<a href="${publication.link}"><i>${publication.tag}</i></a>
               </p>
-              ${publication.fig ? `<img src="/~sk/images/publications/fig/${publication.fig}" class="rounded-start w-100 publication-fig" alt="27 Publication"  />` : ""}
+              ${publication.fig ? `<img src="/images/publications/fig/${publication.fig}" class="rounded-start w-100 publication-fig" alt="27 Publication"  />` : ""}
             </div>
             ${
               publication.rightCover
                 ? `
             <div class="col-md-4 col-12 mb-3 mb-md-0">
-              <img src="/~sk/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
+              <img src="/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
             </div>`
                 : ""
             }
@@ -395,7 +395,7 @@ function displayCarousel() {
       <div class="card ${i == 0 ? "border-info" : ""} text-bg-light py-4 px-4 d-flex justify-content-center" style="min-height: 500px;">
       <div class="row justify-content-evenly align-items-center">
         <div class="col-md-3 col-12 mb-3 mb-md-0">
-          <img src="/~sk/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
+          <img src="/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
         </div>
         <div class="col-md-${publication.rightCover ? 4 : 9} col-12 mb-3 mb-md-0">
           ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px">Latest</div>` : ""}
@@ -403,13 +403,13 @@ function displayCarousel() {
           <p class="card-body">
             ${publication.authors}&nbsp;<a href="${publication.link}"><i>${publication.tag}</i></a>
           </p>
-          ${publication.fig ? `<img src="/~sk/images/publications/fig/${publication.fig}" class="rounded-start publication-fig" alt="27 Publication" />` : ""}
+          ${publication.fig ? `<img src="/images/publications/fig/${publication.fig}" class="rounded-start publication-fig" alt="27 Publication" />` : ""}
         </div>
         ${
           publication.rightCover
             ? `
         <div class="col-md-4 col-12 mb-3 mb-md-0">
-          <img src="/~sk/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
+          <img src="/images/publications/covers/${publication.rightCover}" class="rounded-start" alt="27 Publication" width="150px" />
         </div>`
             : ""
         }
@@ -428,7 +428,7 @@ function displaySmallCarousel() {
     let publication = element;
     carousel.innerHTML += `<div style="width: 100px;">
         <a href="${publication.link}" title="${publication.title}" class="thumb">
-          <img class="img-fluid mx-auto d-block hover-card" src="/~sk/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
+          <img class="img-fluid mx-auto d-block hover-card" src="/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
         </a>
       </div>`;
   }
@@ -445,7 +445,7 @@ function displaySmallCarousel() {
   //       carousel.innerHTML +
   //       `<div style="width: 100px;">
   //       <a href="${publication.link}" title="${publication.title}" class="thumb">
-  //         <img class="img-fluid mx-auto d-block hover-card" src="/~sk/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
+  //         <img class="img-fluid mx-auto d-block hover-card" src="/images/publications/covers/${publication.leftCover}" alt="${publication.title}">
   //       </a>
   //     </div>`;
   //   }
