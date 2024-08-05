@@ -9,6 +9,17 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 32,
+    title: "Rhodium-Catalyzed 3-Aza-Cope Rearrangement of Protic N-Allyl Enammonium Ylides Enabled by Resonance Assisted H-Bonding",
+    authors: "Laxman Anandrao Thorbole ,Sudhir Muduli ,Sreenivas Katukojvala *",
+    link: "https://chemrxiv.org/engage/chemrxiv/article-details/66a7c587c9c6a5c07a6b0337",
+    tag: "ChemRxiv",
+    leftCover: "ChemRxiv.png",
+    rightCover: "",
+    fig: "Sudhir 2024.jpg",
+    selected: false,
+  },
+  {
     id: 31,
     title: "Enal-azomethine ylides: Application in the synthesis of functionalized pyrroles†‡",
     authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala *",
@@ -18,17 +29,6 @@ const publicationsList = [
     rightCover: "",
     fig: "OBC 24 Reaction scheme.jpg",
     selected: false,
-  },
-  {
-    id: 31,
-    title: "Enal-Azomethine Ylides: Application to the Synthesis of Functionalized Pyrroles",
-    authors: "Pratap Kumar Mandal, Sandeep Patel and Sreenivas Katukojvala",
-    link: "https://pubs.rsc.org/en/content/articlelanding/2024/ob/d4ob00859f",
-    tag: "",
-    leftCover: "31.jpeg",
-    rightCover: "",
-    fig: "31.jpeg",
-    selected: true,
   },
   {
     id: 30,
