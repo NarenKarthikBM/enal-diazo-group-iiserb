@@ -17,7 +17,7 @@ const publicationsList = [
     leftCover: "ChemRxiv.png",
     rightCover: "",
     fig: "Sudhir 2024.jpg",
-    selected: false,
+    selected: true,
   },
   {
     id: 31,
@@ -28,7 +28,7 @@ const publicationsList = [
     leftCover: "OBC 2024.jpg",
     rightCover: "",
     fig: "OBC 24 Reaction scheme.jpg",
-    selected: false,
+    selected: true,
   },
   {
     id: 30,
