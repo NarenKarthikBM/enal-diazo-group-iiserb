@@ -10,6 +10,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.MY_PAT }}
       - name: Find and Replace (href)
         uses: jacobtomlinson/gha-find-replace@v3
         with:
@@ -23,7 +25,7 @@ jobs:
             replace: "src=\"/~sk/"
             regex: false
       - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.MY_PAT }}
-          branch: "main"
+          branch: main
+          commit_message: Automated Change
