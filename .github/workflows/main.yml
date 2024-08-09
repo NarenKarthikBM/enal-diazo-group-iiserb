@@ -1,0 +1,24 @@
+name: FileZilla Compatibility Workflow
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Find and Replace (href)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "href=\"/"
+          replace: "href=\"/~sk/"
+          regex: false
+      - name: Find and Replace (src)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+            find: "src=\"/"
+            replace: "src=\"/~sk/"
+            regex: false
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.MY_PAT }}
+          branch: "main"
