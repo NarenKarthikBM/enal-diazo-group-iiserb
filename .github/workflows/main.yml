@@ -1,0 +1,44 @@
+name: FileZilla Compatibility Workflow
+on:
+  push:
+    branches: 
+      - dev
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.MY_PAT }}
+      - name: Find and Replace (href)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "href=\"/"
+          replace: "href=\"/~sk/"
+          regex: false
+      - name: Find and Replace (src)
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+            find: "src=\"/"
+            replace: "src=\"/~sk/"
+            regex: false
+      - name: Delete branch
+        uses: dawidd6/action-delete-branch@v3
+        with:
+          github_token: ${{github.token}}
+          branches: release
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: release
+          create_branch: true
+          commit_message: Automated Change
+      # - name: Merge release -> main
+      #   uses: devmasx/merge-branch@master
+      #   with:
+      #     type: now
+      #     from_branch: release
+      #     target_branch: main
+      #     github_token: ${{ secrets.MY_PAT }}
