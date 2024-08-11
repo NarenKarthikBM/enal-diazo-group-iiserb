@@ -145,13 +145,7 @@ const formerMScStudents = [
   { image: "images/members/Unknown Photo.jpeg", name: "Sundeep Patel", year: "M.S., 2019", linkedIn: "", description: "PhD, IISERB" },
   { image: "images/members/Unknown Photo.jpeg", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Junior Technical Inspector at Coal India Ltd." },
   { image: "images/members/Unknown Photo.jpeg", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Works as scientist at ABX advanced biochemical compounds, Radeberg, Germany" },
-  {
-    image: "images/members/Unknown Photo.jpeg",
-    name: "Sumit K. Prajapati",
-    year: "M.S., 2014",
-    linkedIn: "",
-    description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany",
-  },
+  {image: "images/members/Unknown Photo.jpeg",  name: "Sumit K. Prajapati", year: "M.S., 2014", linkedIn: "", description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany"},
   { image: "images/members/Unknown Photo.jpeg", name: "Mandeep Harode", year: "M.S., 2013", linkedIn: "", description: "Graduate Student, IIT Indore" },
 ];
 
