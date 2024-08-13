@@ -156,7 +156,7 @@ const projectStaffAndInterns = [
   { image: "images/members/Unknown Photo.jpeg", name: "Jyotishman Saika", description: " Intern (2024, IIT Bombay)" },
   { image: "images/members/Unknown Photo.jpeg", name: "Ananya Rout", description: " Intern (2024, IISER Kolkata)" },
   { image: "images/members/Unknown Photo.jpeg", name: "Vaidehi Sahu", description: " Intern (2024, NISER)" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Aditi Bhutkar", description: " Intern (2024, DBAMU  )" },
+  { image: "images/members/Unknown Photo.jpeg", name: "Aditi Bhutkar", description: " Intern (2024, DBAMU Maharashtra  )" },
   { image: "images/members/Unknown Photo.jpeg", name: "Sristi Kewlani", description: " Intern (2024, IEHE Bhopal)" },
   { image: "images/members/Unknown Photo.jpeg", name: "Veeru Kumar Singh", description: " Intern (2023, IISER Bhopal)" },
   { image: "images/members/Unknown Photo.jpeg", name: "Ankan Das", description: "Intern (2023, IISER Bhopal)" },
