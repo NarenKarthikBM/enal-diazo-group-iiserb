@@ -11,7 +11,7 @@ const publicationsList = [
   {
     id: 32,
     title: "Rhodium-Catalyzed 3-Aza-Cope Rearrangement of Protic N-Allyl Enammonium Ylides Enabled by Resonance Assisted H-Bonding",
-    authors: "Laxman Anandrao Thorbole ,Sudhir Muduli ,Sreenivas Katukojvala *",
+    authors: "Laxman Anandrao Thorbole, Sudhir Muduli, Sreenivas Katukojvala *",
     link: "https://chemrxiv.org/engage/chemrxiv/article-details/66a7c587c9c6a5c07a6b0337",
     tag: "ChemRxiv",
     leftCover: "ChemRxiv.png",
