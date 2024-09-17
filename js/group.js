@@ -1,7 +1,7 @@
 
 const currentMembers = [
   {
-    image: "images/members/pratap-k-mandal.png",
+    image: "images/members/Pratap Kumar Mandal.jpeg",
     name: "Dr. Pratap Kumar Mandal",
     post: "PhD, IISERB",
     education: "",
@@ -162,7 +162,7 @@ const formerMScStudents = [
   { image: "images/members/Unknown Photo.jpeg", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Junior Technical Inspector at Coal India Ltd." },
   { image: "images/members/Desna Joseph.jpeg", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Works as scientist at ABX advanced biochemical compounds, Radeberg, Germany" },
   {image: "images/members/Unknown Photo.jpeg",  name: "Sumit K. Prajapati", year: "M.S., 2014", linkedIn: "", description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany"},
-  { image: "images/members/Unknown Photo.jpeg", name: "Mandeep Harode", year: "M.S., 2013", linkedIn: "", description: "Graduate Student, IIT Indore" },
+  { image: "images/members/Unknown Photo.jpeg", name: "Mandeep Harode", year: "M.S., 2013", linkedIn: "", description: "Ph.D. Student in Monash University" },
 ];
 
 const projectStaffAndInterns = [
@@ -186,8 +186,8 @@ const projectStaffAndInterns = [
   { image: "images/members/Shubham.jpeg", name: "Shubham", description: "Research Assistant (2022, IITK), Ph.D. Student in Prof. Ramesh Giri's group, Pennsylvania State University, Pennsylvania, USA"},
   { image: "images/members/rachit-singh-chauhan.jpg", name: "Rachit S. Chouhan", description: "Summer Intern (2022, IISER Bhopal), Project Student in Prof. Debabrata Maiti's Group, IIT Bombay " },
   { image: "images/members/durjay-roy.jpg", name: "Durjay Roy", description: "Summer Intern (2022, IISER Bhopal)" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Navdheer", description: "Summer Intern (2021, IIT Bombay)" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Satya Panda", description: "Summer Intern (2019, CU Gujarat)" },
+  { image: "images/members/Unknown Photo.jpeg", name: "Yalamanchili Navdheer", description: "Summer Intern (2021, IIT Bombay),  Ph.D. Student in Dr. Nicolai Cramer group, EPFL, Switzerland" },
+  { image: "images/members/Satya Panda.webp", name: "Satya Panda", description: "Summer Intern (2019, CU Gujarat), Ph.D. Student in  Dr. Sandip Murarka group, IIT, Jodhpur, India" },
   { image: "images/members/Prakash Tiwari.jpg", name: "Prakash Tiwari", description: "Summer Intern (2019, IISER Bhopal), Ph.D. Student in Prof. Timothy Noel's Group, University of Amsterdam" },
   { image: "images/members/Unknown Photo.jpeg", name: "Nisha Nirala", description: "Intern (2019, Guru Ghasidas Vishwavidyalaya, Bilaspur)" },
   { image: "images/members/Unknown Photo.jpeg", name: "Ganesh Shelke", description: "Research Associate, 2017, Ph.D., BITS Pilani" },
