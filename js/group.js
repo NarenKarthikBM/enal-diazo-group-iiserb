@@ -176,7 +176,7 @@ const projectStaffAndInterns = [
   { image: "images/members/Khushi.jpg", name: "Khushi", description: " Summer Intern (2024, SNGGPG Bhopal  )" },
   { image: "images/members/Srishti Kewlani.jpeg", name: "Srishti Kewlani", description: " Summer Intern (2024, IEHE Bhopal)" },
   { image: "images/members/Veeru Kumar Singh.jpeg", name: "Veeru Kumar Singh", description: " Summer Intern (2023, IISER Bhopal)" },
-  { image: "images/members/Ankan Das.jpeg", name: "Ankan Das", description: "Summer Intern (2023, IISER Bhopal)" },
+  
   { image: "images/members/Samruddhi Patil.jpg", name: "Samruddhi Patil", description: "Summer Intern (2023, IISER Bhopal)" },
   { image: "images/members/Sayanthan Khan.jpeg", name: "Sayanthan Khan", description: "Summer Intern (2023, IISER Kolkata)" },
   { image: "images/members/Amit Patwa.jpeg", name: "Amit Patwa", description: "Summer Intern (2023, IITK)" },
