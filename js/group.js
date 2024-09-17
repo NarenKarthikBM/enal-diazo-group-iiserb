@@ -153,7 +153,7 @@ const formerMScStudents = [
   { image: "images/members/rachit-singh-chauhan.jpg", name: "Rachit Singh Chauhan", year: "M.S., 2024", linkedIn: "", description: "Project Student in Prof. Debabrata Maiti's Group, IIT Bombay " },
   { image: "images/members/Nitesh Jarwal.jpeg", name: "Nitesh Jarwal", year: "M.S., 2023", linkedIn: "", description: "" },
   { image: "images/members/Siddhant Amol Ganvir.jpeg", name: "Siddhant Amol Ganvir", year: "M.S., 2023", linkedIn: "", description: "" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Pallav Sharma", year: "M.S., 2022", linkedIn: "", description: "" },
+  { image: "images/members/Pallav Sharma.JPG", name: "Pallav Sharma", year: "M.S., 2022", linkedIn: "", description: "" },
   { image: "images/members/Shubham Singh.jpeg", name: "Shubham Singh", year: "M.S., 2021", linkedIn: "", description: "" },
   { image: "images/members/Pavan Goturi.jpg", name: "Pavan Goturi", year: "M.S., 2020", linkedIn: "", description: "" },
   { image: "images/members/Parvesh Dagar.jpg", name: "Parvesh Dagar", year: "M.S., 2020", linkedIn: "", description: "" },
@@ -176,7 +176,7 @@ const projectStaffAndInterns = [
   { image: "images/members/Khushi.jpg", name: "Khushi", description: " Summer Intern (2024, SNGGPG Bhopal  )" },
   { image: "images/members/Srishti Kewlani.jpeg", name: "Srishti Kewlani", description: " Summer Intern (2024, IEHE Bhopal)" },
   { image: "images/members/Veeru Kumar Singh.jpeg", name: "Veeru Kumar Singh", description: " Summer Intern (2023, IISER Bhopal)" },
-  
+  { image: "images/members/Ankan Das.jpeg", name: "Ankan Das", description: " Summer Intern (2023, IISER Bhopal)" },
   { image: "images/members/Samruddhi Patil.jpg", name: "Samruddhi Patil", description: "Summer Intern (2023, IISER Bhopal)" },
   { image: "images/members/Sayanthan Khan.jpeg", name: "Sayanthan Khan", description: "Summer Intern (2023, IISER Kolkata)" },
   { image: "images/members/Amit Patwa.jpeg", name: "Amit Patwa", description: "Summer Intern (2023, IITK)" },
