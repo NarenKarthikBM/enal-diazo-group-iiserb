@@ -146,7 +146,7 @@ const formerPHDStudents = [
   { image: "images/members/Vinaykumar Kanchupalli.jpeg", name: "Dr. Vinaykumar Kanchupalli", year: "Ph.D., 2016", linkedIn: "", description: "Inspire Faculty at NIPER Hyderabad" },
   { image: "images/members/Jagadeesh Kalepu.jpeg", name: "Dr. Jagadeesh Kalepu", year: "Ph.D., 2016", linkedIn: "", description: "Currently Working as a Chemist at Syngene, Bangalore" },
   { image: "images/members/Sudam Ganpat Dawande.jpg", name: "Dr. Sudam Ganpat Dawande ", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, IIT Madras, Chennai" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Dr. Kuldeep Singh Rathore", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Profeessor at Govt Arts and Science PG College Ratlam, Department of Higher Education, Madhya Pradesh" },
+  { image: "images/members/Kuldeep Singh Rathore.jpg", name: "Dr. Kuldeep Singh Rathore", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Profeessor at Govt Arts and Science PG College Ratlam, Department of Higher Education, Madhya Pradesh" },
 ];
 
 const formerMScStudents = [
@@ -155,9 +155,9 @@ const formerMScStudents = [
   { image: "images/members/Siddhant Amol Ganvir.jpeg", name: "Siddhant Amol Ganvir", year: "M.S., 2023", linkedIn: "", description: "" },
   { image: "images/members/Unknown Photo.jpeg", name: "Pallav Sharma", year: "M.S., 2022", linkedIn: "", description: "" },
   { image: "images/members/Shubham Singh.jpeg", name: "Shubham Singh", year: "M.S., 2021", linkedIn: "", description: "" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Pavan Goturi", year: "M.S., 2020", linkedIn: "", description: "" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Parvesh Dagar", year: "M.S., 2020", linkedIn: "", description: "" },
-  { image: "images/members/Unknown Photo.jpeg", name: "Tarun Kumar Jayaswal", year: "M.S., 2020", linkedIn: "", description: "" },
+  { image: "images/members/Pavan Goturi.jpg", name: "Pavan Goturi", year: "M.S., 2020", linkedIn: "", description: "" },
+  { image: "images/members/Parvesh Dagar.jpg", name: "Parvesh Dagar", year: "M.S., 2020", linkedIn: "", description: "" },
+  { image: "images/members/Tarun Kumar Jayaswal.jpg", name: "Tarun Kumar Jayaswal", year: "M.S., 2020", linkedIn: "", description: "" },
   { image: "images/members/Sandeep Patel.jpg", name: "Sandeep Patel", year: "M.S., 2019", linkedIn: "", description: "Ph.D. Student in Dr. Indranil Chatterjee, IIT Ropar, India" },
   { image: "images/members/Unknown Photo.jpeg", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Junior Technical Inspector at Coal India Ltd." },
   { image: "images/members/Desna Joseph.jpeg", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Works as scientist at ABX advanced biochemical compounds, Radeberg, Germany" },
