@@ -11,7 +11,7 @@ const groupNews = [
 const publicationsList = [
   {
     id: 33,
-    title: "Visible Light Mediated Click Reactions of Diazoenals: Direct Access to Bicyclo[4.1.0]heptane-Fused Polycycles with Potential Application as Insulin Aggregation Inhibitors",
+    title: "Visible Light Mediated Photoclick Reactions of Diazoenals: Direct Access to Bicyclo[4.1.0]heptane-Fused Polycycles with Potential Application as Insulin Aggregation Inhibitors",
     authors: "Saikat Chatterjee, Kamakshya Prasad Mahata, Mohd Shavan Khan, Anirban Das, Jyoti Yadav, Ishu Saraogi and Sreenivas Katukojvala*",
     link: "https://chemrxiv.org/engage/chemrxiv/article-details/670a8812cec5d6c142f167b6",
     tag: "ChemRxiv",
