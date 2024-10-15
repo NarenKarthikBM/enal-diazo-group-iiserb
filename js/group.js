@@ -158,7 +158,7 @@ const formerMScStudents = [
   { image: "images/members/Pavan Goturi.jpg", name: "Pavan Goturi", year: "M.S., 2020", linkedIn: "", description: "" },
   { image: "images/members/Parvesh Dagar.jpg", name: "Parvesh Dagar", year: "M.S., 2020", linkedIn: "", description: "" },
   { image: "images/members/Tarun Kumar Jayaswal.jpg", name: "Tarun Kumar Jayaswal", year: "M.S., 2020", linkedIn: "", description: "" },
-  { image: "images/members/Sandeep Patel.jpg", name: "Sandeep Patel", year: "M.S., 2019", linkedIn: "", description: "Ph.D. Student in Dr. Indranil Chatterjee, IIT Ropar, India" },
+  { image: "images/members/Sandeep Patel.jpg", name: "Sandeep Patel", year: "M.S., 2019", linkedIn: "", description: "Ph.D. Student in Dr. Indranil Chatterjee Group, IIT Ropar, India" },
   { image: "images/members/Unknown Photo.jpeg", name: "Vishal Meena", year: "M.S., 2018", linkedIn: "", description: "Junior Technical Inspector at Coal India Ltd." },
   { image: "images/members/Desna Joseph.jpeg", name: "Desna Joseph", year: "M.S., 2015", linkedIn: "", description: "Works as scientist at ABX advanced biochemical compounds, Radeberg, Germany" },
   {image: "images/members/Unknown Photo.jpeg",  name: "Sumit K. Prajapati", year: "M.S., 2014", linkedIn: "", description: "Graduate Student, INM- Leibniz Institute for New Materials, Saarbrücken, Germany"},
