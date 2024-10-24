@@ -10,6 +10,39 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 36,
+    title: "Site-Selective Direct γ-Difunctionalization of Diazoenals: Application to the Synthesis of Enal-Functionalized Allenes and Furans",
+    authors: "Jagadeesh Kalepu, Bapurao Sudam Lad,† Pratap Kumar Mandal,† Vinaykumar Kanchupalli,† Durjay Roy and Sreenivas Katukojvala*",
+    link: "https://aces.onlinelibrary.wiley.com/doi/10.1002/asia.202401081",
+    tag: "Chem. Asian J. 2024, e202401081 (Invited Article)",
+    leftCover: "36 Cover.jpg",
+    rightCover: "",
+    fig: "36.jpg",
+    selected: false,
+  },
+  {
+    id: 35,
+    title: "Copper-enalcarbenoids: Rapid access to 1,7-disubstituted indoles via [4+2] benzannulation between diazoenals and N-substituted pyrroles",
+    authors: "Bapurao Sudam Lad, Pratap Kumar Mandal, Rahul Chakrawarti, Sreenivas Katukojvala",
+    link: "https://www.sciencedirect.com/science/article/pii/S004040392400426X",
+    tag: "Tetrahedron Lett. 2024, 151, 155331, (Invited Article)",
+    leftCover: "Tetrahedron letters.jpg",
+    rightCover: "",
+    fig: "35.jpg",
+    selected: false,
+  },
+  {
+    id: 34,
+    title: "Synergistic Rh(II)- and Zn(II)-Catalyzed [3 + 3] Annulation of Diazoenals and α-Hydroxy Ketones for the Direct Synthesis of 2H-Pyrans, A Gateway Toward γ-Pyrones",
+    authors: "Pratap Kumar Mandal, and Sreenivas Katukojvala*",
+    link: "https://pubs.acs.org/doi/full/10.1021/acs.orglett.4c03329",
+    tag: "Org. Lett.",
+    leftCover: "OL 2024.jpg",
+    rightCover: "",
+    fig: "34.jpg",
+    selected: false,
+  },
+  {
     id: 33,
     title: "Visible Light Mediated Photoclick Reactions of Diazoenals: Direct Access to Bicyclo[4.1.0]heptane-Fused Polycycles with Potential Application as Insulin Aggregation Inhibitors",
     authors: "Saikat Chatterjee, Kamakshya Prasad Mahata, Mohd Shavan Khan, Anirban Das, Jyoti Yadav, Ishu Saraogi and Sreenivas Katukojvala*",
@@ -50,7 +83,7 @@ const publicationsList = [
     tag: "JACS Au 2024, 4, 2099–2107",
     leftCover: "JACS Au 2024.jpg",
     rightCover: "",
-    fig: "29.jpg",
+    fig: "30.jpg",
     selected: true,
   },
   {
@@ -62,7 +95,7 @@ const publicationsList = [
     tag: "Org. Lett. 2024, 26, 3463–3468",
     leftCover: "OL 2024.jpg",
     rightCover: "",
-    fig: "30.jpeg",
+    fig: "29.jpeg",
     selected: true,
   },
   {

@@ -143,7 +143,7 @@ const formerPHDStudents = [
   { image: "images/members/Haribabu Chennamsetti.jpeg", name: "Dr. Haribabu Chennamsetti", year: "Ph.D., 2019", linkedIn: "", description: "Associate Scientist at Aragen LifeSciences Pvt Ltd." },
   { image: "images/members/Bapurao Sudam Lad.jpeg", name: "Dr. Bapurao Sudam Lad", year: "Ph.D., 2018", linkedIn: "", description: "" },
   { image: "images/members/Dharmendra Singh.jpeg", name: "Dharmendra Singh", year: "2017 - 2018", linkedIn: "", description: "Currently Working as a Chemist at ONGC" },
-  { image: "images/members/Vinaykumar Kanchupalli.jpeg", name: "Dr. Vinaykumar Kanchupalli", year: "Ph.D., 2016", linkedIn: "", description: "Inspire Faculty at NIPER Hyderabad" },
+  { image: "images/members/Vinaykumar Kanchupalli.jpeg", name: "Dr. Vinaykumar Kanchupalli", year: "Ph.D., 2016", linkedIn: "", description: "DST Inspire Faculty at NIPER Hyderabad" },
   { image: "images/members/Jagadeesh Kalepu.jpeg", name: "Dr. Jagadeesh Kalepu", year: "Ph.D., 2016", linkedIn: "", description: "Currently Working as a Chemist at Syngene, Bangalore" },
   { image: "images/members/Sudam Ganpat Dawande.jpg", name: "Dr. Sudam Ganpat Dawande ", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Professor, IIT Madras, Chennai" },
   { image: "images/members/Kuldeep Singh Rathore.jpg", name: "Dr. Kuldeep Singh Rathore", year: "Ph.D., 2015", linkedIn: "", description: "Assistant Profeessor at Govt Arts and Science PG College Ratlam, Department of Higher Education, Madhya Pradesh" },
