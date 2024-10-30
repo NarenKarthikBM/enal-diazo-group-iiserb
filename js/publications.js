@@ -1,7 +1,8 @@
 
 const groupNews = [
+  { date: "Nov 2024", message: "Dr. Vinay Joined University of Hyderabad as the faculty in the School of Chemistry." },
   { date: "2023", message: "Dr. Laxman joined as a chemist at Macleods, Mumbai." },
-  { date: "October 2022", message: "Dr. Sudam G. Dawande joined as the Assistant Professor at the Department of Chemistry, IIT Madras." },
+  { date: "Oct 2022", message: "Dr. Sudam G. Dawande joined as the Assistant Professor at the Department of Chemistry, IIT Madras." },
   { date: "Feb 2022", message: "Dr. Jagadeesh joined as a senior research investigator at Syngene, Bangalore." },
   { date: "June 2021", message: "Dr. Haribabu Joined as a Scientist at GVK Biosciences, Hyderabad." },
   { date: "Feb 2020", message: "Dr. Jagadeesh joined as the Marie-Curie post-doctoral fellow at Oxford University in Prof. Michael Willis's group" },
@@ -36,7 +37,7 @@ const publicationsList = [
     title: "Synergistic Rh(II)- and Zn(II)-Catalyzed [3 + 3] Annulation of Diazoenals and α-Hydroxy Ketones for the Direct Synthesis of 2H-Pyrans, A Gateway Toward γ-Pyrones",
     authors: "Pratap Kumar Mandal, and Sreenivas Katukojvala*",
     link: "https://pubs.acs.org/doi/full/10.1021/acs.orglett.4c03329",
-    tag: "Org. Lett.",
+    tag: "Org. Lett, 2024, doi.org/10.1021/acs.orglett.4c03329",
     leftCover: "OL 2024.jpg",
     rightCover: "",
     fig: "34.jpg",
