@@ -11,6 +11,17 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 37,
+    title: "Enal Transfer via Piano-Stool Rh-Enalcarbenoids: Rapid Construction of Enal-Functionalized Isoquinolones, Application Toward Benzo[c]phenanthridinone Scaffolds",
+    authors: "Pratap Kumar Mandal, Sudhir Muduli and Sreenivas Katukojvala*",
+    link: "https://pubs.acs.org/doi/full/10.1021/acs.orglett.5c00517",
+    tag: "Org. Lett. 2025, ",
+    leftCover: "OL 2024.jpg",
+    rightCover: "",
+    fig: "37.webp",
+    selected: false,
+  },
+  {
     id: 36,
     title: "Site-Selective Direct γ-Difunctionalization of Diazoenals: Application to the Synthesis of Enal-Functionalized Allenes and Furans",
     authors: "Jagadeesh Kalepu, Bapurao Sudam Lad,† Pratap Kumar Mandal,† Vinaykumar Kanchupalli,† Durjay Roy and Sreenivas Katukojvala*",
