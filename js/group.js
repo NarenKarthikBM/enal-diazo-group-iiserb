@@ -61,16 +61,6 @@ const currentMembers = [
       "Shavan was born and brought up in Hardoi, Uttar Pradesh. He has done his B.Sc from ARSD college, University of Delhi. After completing his M.Sc from Aligarh Muslim University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2024 to pursue his Ph.D. Other than lab works he loves playing cricket, kabaddi and reading books.",
   },
   {
-    image: "images/members/Anupama Yadav.jpeg",
-    name: "Anupama Yadav",
-    post: "Graduate Student",
-    education: "M.Sc., University of Lucknow ",
-    linkedIn: "",
-    emailID: "anupama21@iiserb.ac.in",
-    description:
-      "Anupama was born and brought up in Lucknow, U.P. She completed her B.Sc and M.Sc. from Lucknow University. She joined Prof. Katukojvala's group at IISER Bhopal in August 2024 to pursue Ph.D. Other than lab she love to read fiction novel and playing badminton.",
-  },
-  {
     image: "images/members/Debopam Ray.jpg",
     name: "Debopam Ray",
     post: "MS Project Student, IISER Bhopal",
@@ -118,7 +108,7 @@ const currentMembers = [
 ];
 
 const formerPHDStudents = [
-  { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Currently working as Post-Doc in David C. Powers group, Texas A & M University" },
+  { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Accepted Post-Doc position in Prof. David C. Powers group, Texas A & M University" },
   { image: "images/members/mohammad-arshad.png", name: "Dr. Mohammad Arshad", year: "Ph.D., 2024", linkedIn: "", description: "Chemistry Lecturer at B.R.K Inter College Mau, Uttar Pradesh." },
   { image: "images/members/laxman.png", name: "Dr. Laxman Thorbole", year: "Ph.D., 2023", linkedIn: "", description: "Currently working as a Chemist at Macleods, Mumbai." },
   { image: "images/members/Haribabu Chennamsetti.jpeg", name: "Dr. Haribabu Chennamsetti", year: "Ph.D., 2019", linkedIn: "", description: "Associate Scientist at Aragen LifeSciences Pvt Ltd." },

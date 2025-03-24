@@ -18,7 +18,7 @@ const publicationsList = [
     tag: "Org. Lett. 2025, ",
     leftCover: "OL 2024.jpg",
     rightCover: "",
-    fig: "37.webp",
+    fig: "37.jpg",
     selected: false,
   },
   {
