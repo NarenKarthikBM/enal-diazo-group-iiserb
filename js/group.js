@@ -87,24 +87,7 @@ const currentMembers = [
     description: "",
     emailID: "shila23@iiserb.ac.in",
   },
-  {
-    image: "images/members/Ankan Das.jpeg",
-    name: "Ankan Das",
-    post: "BS-MS, IISER Bhopal",
-    education: "",
-    linkedIn: "",
-    description: "",
-    emailID: "ankan21@iiserb.ac.in",
-  },
-  {
-    image: "images/members/Pamini Chandan.jpeg",
-    name: "Pamini Chandan",
-    post: "BS-MS, IISER Bhopal",
-    education: "",
-    linkedIn: "",
-    description: "",
-    emailID: "pamini21@iiserb.ac.in",
-  },
+  
 ];
 
 const formerPHDStudents = [
@@ -138,8 +121,7 @@ const formerMScStudents = [
 ];
 
 const projectStaffAndInterns = [
-  { image: "images/members/Pamini Chandan.jpeg", name: "Pamini Chandan", description: " Summer Intern (2024, IISER Bhopal)" },
-  { image: "images/members/Dhawal Pahuja.JPEG", name: "Dhawal Pahuja", description: " Summer Intern (2024, IISER Bhopal)" },
+ { image: "images/members/Dhawal Pahuja.JPEG", name: "Dhawal Pahuja", description: " Summer Intern (2024, IISER Bhopal)" },
   { image: "images/members/Srabasti Dhar.jpg", name: "Srabasti Dhar", description: " Summer Intern (2024, IIT Bombay)" },
   { image: "images/members/Jyotishman Saika.jpg", name: "Jyotishman Saika", description: " Summer Intern (2024, IIT Bombay)" },
   { image: "images/members/Ananya Rout.png", name: "Ananya Rout", description: " Summer Intern (2024, IISER Kolkata)" },
@@ -148,7 +130,6 @@ const projectStaffAndInterns = [
   { image: "images/members/Khushi.jpg", name: "Khushi", description: " Summer Intern (2024, SNGGPG Bhopal  )" },
   { image: "images/members/Srishti Kewlani.jpeg", name: "Srishti Kewlani", description: " Summer Intern (2024, IEHE Bhopal)" },
   { image: "images/members/Veeru Kumar Singh.jpeg", name: "Veeru Kumar Singh", description: " Summer Intern (2023, IISER Bhopal)" },
-  { image: "images/members/Ankan Das.jpeg", name: "Ankan Das", description: " Summer Intern (2023, IISER Bhopal)" },
   { image: "images/members/Samruddhi Patil.jpg", name: "Samruddhi Patil", description: "Summer Intern (2023, IISER Bhopal)" },
   { image: "images/members/Sayanthan Khan.jpeg", name: "Sayanthan Khan", description: "Summer Intern (2023, IISER Kolkata)" },
   { image: "images/members/Amit Patwa.jpeg", name: "Amit Patwa", description: "Summer Intern (2023, IITK)" },
