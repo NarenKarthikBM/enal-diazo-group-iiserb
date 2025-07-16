@@ -1,13 +1,14 @@
 
 const groupNews = [
+  { date: "March 2025", message: "Dr. Saikat joined as a Postdoc in Prof. David C. Powers group, Texas A & M University." },
   { date: "Nov 2024", message: "Dr. Vinay Joined University of Hyderabad as the faculty in the School of Chemistry." },
   { date: "2023", message: "Dr. Laxman joined as a chemist at Macleods, Mumbai." },
   { date: "Oct 2022", message: "Dr. Sudam G. Dawande joined as the Assistant Professor at the Department of Chemistry, IIT Madras." },
   { date: "Feb 2022", message: "Dr. Jagadeesh joined as a senior research investigator at Syngene, Bangalore." },
   { date: "June 2021", message: "Dr. Haribabu Joined as a Scientist at GVK Biosciences, Hyderabad." },
   { date: "Feb 2020", message: "Dr. Jagadeesh joined as the Marie-Curie post-doctoral fellow at Oxford University in Prof. Michael Willis's group" },
-  { date: "Jun 2019", message: "Bapu Accepted Post Doc. position at the Kim Lab, INCHEON National University, Korea." },
-  { date: "Jan 2019", message: "Vinay joined as the Inspire faculty at NIPER HYDERABAD." },
+ 
+ 
 ];
 const publicationsList = [
   {
@@ -108,7 +109,7 @@ const publicationsList = [
     leftCover: "OL 2024.jpg",
     rightCover: "",
     fig: "29.jpeg",
-    selected: true,
+    selected: false,
   },
   {
     id: 28,
@@ -141,7 +142,7 @@ const publicationsList = [
     leftCover: "ACS Catal 2018.jpg",
     rightCover: null,
     fig: "26-publication-fig.png",
-    selected: false,
+    selected: true,
   },
   {
     id: 25,
@@ -455,7 +456,7 @@ function displayCarousel() {
           <img src="/images/publications/covers/${publication.leftCover}" class="rounded-start" alt="27 Publication" width="150px" />
         </div>
         <div class="col-md-${publication.rightCover ? 4 : 9} col-12 mb-3 mb-md-0">
-          ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px">Latest</div>` : ""}
+          ${i == 0 ? `<div class="badge rounded-pill text-bg-primary mb-4" style="width: 100px"></div>` : ""}
           <h5 class="card-title">${publication.id}. ${publication.title}</h5>
           <p class="card-body">
             ${publication.authors}&nbsp;<a href="${publication.link}"><i>${publication.tag}</i></a>

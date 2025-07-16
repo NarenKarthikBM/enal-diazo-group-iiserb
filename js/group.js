@@ -21,7 +21,7 @@ const currentMembers = [
       "Kamakshya Prasad  was born and brought up in Purulia, West Bengal. He did his B.Sc from J.K. college, Purulia and completed his M.Sc from B.H.U, Varanasi. He joined Dr.  Katukojvala’s group at IISER Bhopal in January 2019 to pursue his Doctoral Programme. Other than Lab. works, he loves playing Keyboard, watching/playing cricket and reading books.",
   },
   {
-    image: "images/members/chayan.jpg",
+    image: "images/members/Chayan Kumar Kundu.jpeg",
     name: "Chayan Kumar Kundu",
     post: "Graduate Student",
     education: "M.Sc., Siddharth University, UP",
@@ -51,7 +51,7 @@ const currentMembers = [
       "Sudhir was born and brought up in Angul, Odisha. He has done his B.Sc from Ravenshaw University, Odisha. After completing his M.Sc from Central University of Rajasthan, he joined Prof. Katukojvala’s group at IISER Bhopal in July 2022 to pursue his Ph.D. Other than lab works he loves to play badminton, cricket , practice yoga and reading spiritual books.",
   },
   {
-    image: "images/members/Shavan.jpeg",
+    image: "images/members/Mohammad Shavan Khan.jpeg",
     name: "Mohammad Shavan Khan",
     post: "Graduate Student",
     education: "M.Sc., Aligarh Muslim University",
@@ -61,37 +61,19 @@ const currentMembers = [
       "Shavan was born and brought up in Hardoi, Uttar Pradesh. He has done his B.Sc from ARSD college, University of Delhi. After completing his M.Sc from Aligarh Muslim University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2024 to pursue his Ph.D. Other than lab works he loves playing cricket, kabaddi and reading books.",
   },
   {
-    image: "images/members/Debopam Ray.jpg",
-    name: "Debopam Ray",
-    post: "MS Project Student, IISER Bhopal",
-    education: "",
+    image: "images/members/Ankan Das.jpeg",
+    name: "Ankan Das",
+    post: "MS, 2025",
+    education: "IISER Bhopal",
     linkedIn: "",
-    description: "Debopam was born and brought up in Coochbehar, West Bengal. He is a BS-MS student of IISER Bhopal. He joined Prof. Katukojvala’s group in May 2024 as a MS project student. Besides lab work, he loves landscape photography and watching movies & web series.",
-    emailID: "debopam20@iiserb.ac.in",
+    emailID: "ankan21@iiserb.ac.in",
+    description:
+      " ",
   },
-  {
-    image: "images/members/Shubham BSMS 2024.jpeg",
-    name: "Shubham",
-    post: "MS Project Student, IISER Bhopal",
-    education: "",
-    linkedIn: "",
-    description: "Shubham was born in 2002 in Sikanderpur, Haryana. He joined Prof. Katukojvala’s group as a MS project student. Apart from lab he spend his time watching anime and lifting at the gym.",
-    emailID: "shubham20@iiserb.ac.in",
-  },
-  {
-    image: "images/members/Shila Maji.jpg",
-    name: "Shila Maji",
-    post: "MSc Project Student, IISER Bhopal",
-    education: "",
-    linkedIn: "",
-    description: "",
-    emailID: "shila23@iiserb.ac.in",
-  },
-  
 ];
 
 const formerPHDStudents = [
-  { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Accepted Post-Doc position in Prof. David C. Powers group, Texas A & M University" },
+  { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. David C. Powers group, Texas A & M University" },
   { image: "images/members/mohammad-arshad.png", name: "Dr. Mohammad Arshad", year: "Ph.D., 2024", linkedIn: "", description: "Chemistry Lecturer at B.R.K Inter College Mau, Uttar Pradesh." },
   { image: "images/members/laxman.png", name: "Dr. Laxman Thorbole", year: "Ph.D., 2023", linkedIn: "", description: "Currently working as a Chemist at Macleods, Mumbai." },
   { image: "images/members/Haribabu Chennamsetti.jpeg", name: "Dr. Haribabu Chennamsetti", year: "Ph.D., 2019", linkedIn: "", description: "Associate Scientist at Aragen LifeSciences Pvt Ltd." },
@@ -104,6 +86,9 @@ const formerPHDStudents = [
 ];
 
 const formerMScStudents = [
+  { image: "images/members/Debopam Ray.jpg", name: "Debopam Ray", year: "M.S., 2025", linkedIn: "", description: "" },
+  { image: "images/members/Shubham BSMS 2024.jpeg", name: "Shubham", year: "M.S., 2025", linkedIn: "", description: "" },
+  { image: "images/members/Shila Maji.jpg", name: "Shila Maji", year: "MSc, 2025", linkedIn: "", description: "" },
   { image: "images/members/durjay-roy.jpg", name: "Durjay Roy", year: "M.S., 2024", linkedIn: "", description: "" },
   { image: "images/members/rachit-singh-chauhan.jpg", name: "Rachit Singh Chauhan", year: "M.S., 2024", linkedIn: "", description: "Project Student in Prof. Debabrata Maiti's Group, IIT Bombay " },
   { image: "images/members/Nitesh Jarwal.jpeg", name: "Nitesh Jarwal", year: "M.S., 2023", linkedIn: "", description: "" },
@@ -121,7 +106,14 @@ const formerMScStudents = [
 ];
 
 const projectStaffAndInterns = [
- { image: "images/members/Dhawal Pahuja.JPEG", name: "Dhawal Pahuja", description: " Summer Intern (2024, IISER Bhopal)" },
+  { image: "images/members/Anjali Sinha.jpeg", name: "Anjali Sinha", description: " Summer Intern (2025, IISER Bhopal)" },
+  { image: "images/members/Aditya Shandilya.jpeg", name: "Aditya Shandilya", description: " Summer Intern (2025, IISER Bhopal)" },
+  { image: "images/members/Prajakta Prashant Upasani.jpeg", name: "Prajakta P. Upasani", description: " Summer Intern (2025, IISER Bhopal)" },
+  { image: "images/members/Sumit More.jpeg", name: "Sumit More", description: " Summer Intern (2025, IISER Bhopal)" },
+  { image: "images/members/Diptajyoti Pradhan.jpeg", name: "Diptajyoti Pradhan", description: " Summer Intern (2025, IISER Bhopal)" },
+  { image: "images/members/Vaishnavi Gopal Shinkar.jpeg", name: "Vaishnavi Gopal Shinkar", description: " Summer Intern (2025, IISER TVM)" },
+  { image: "images/members/Nikhil Lakhera.jpeg", name: "Nikhil Lakhera", description: " Summer Intern (2025, IISER Bhopal)" },
+  { image: "images/members/Dhawal Pahuja.JPEG", name: "Dhawal Pahuja", description: " Summer Intern (2024, IISER Bhopal)" },
   { image: "images/members/Srabasti Dhar.jpg", name: "Srabasti Dhar", description: " Summer Intern (2024, IIT Bombay)" },
   { image: "images/members/Jyotishman Saika.jpg", name: "Jyotishman Saika", description: " Summer Intern (2024, IIT Bombay)" },
   { image: "images/members/Ananya Rout.png", name: "Ananya Rout", description: " Summer Intern (2024, IISER Kolkata)" },
@@ -133,6 +125,7 @@ const projectStaffAndInterns = [
   { image: "images/members/Samruddhi Patil.jpg", name: "Samruddhi Patil", description: "Summer Intern (2023, IISER Bhopal)" },
   { image: "images/members/Sayanthan Khan.jpeg", name: "Sayanthan Khan", description: "Summer Intern (2023, IISER Kolkata)" },
   { image: "images/members/Amit Patwa.jpeg", name: "Amit Patwa", description: "Summer Intern (2023, IITK)" },
+  { image: "images/members/Ankan Das.jpeg", name: "Ankan Das", description: " Summer Intern (2023, IISER Bhopal)" },
   { image: "images/members/Saee Dharmadhikar.jpg", name: "Saee Dharmadhikar", description: " Summer Intern (2023, NIT Surathkal)" },
   { image: "images/members/Unknown Photo.jpeg", name: "Aurobindo Patnaik", description: "Summer Intern (2022, NISER Bhubaneswar)" },
   { image: "images/members/Unknown Photo.jpeg", name: "Mohsin Mohsin", description: "Summer Intern (2022, AMU)" },
