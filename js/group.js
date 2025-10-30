@@ -12,7 +12,7 @@ const currentMembers = [
   },
   {
     image: "images/members/kamakshya-prasad-mahata.jpg",
-    name: "Kamakshya Prasad Mahata",
+    name: " Dr. Kamakshya Prasad Mahata",
     post: "Graduate Student",
     education: "M.Sc., BHU",
     linkedIn: "",
@@ -22,7 +22,7 @@ const currentMembers = [
   },
   {
     image: "images/members/Chayan Kumar Kundu.jpeg",
-    name: "Chayan Kumar Kundu",
+    name: "Dr. Chayan Kumar Kundu",
     post: "Graduate Student",
     education: "M.Sc., Siddharth University, UP",
     linkedIn: "",
@@ -31,7 +31,7 @@ const currentMembers = [
       "Chayan was born and brought up in Gonda, Uttar Pradesh. He has done his B.Sc from Dr. R. M. L. Awadh University, Ayodhya U.P. After completing his M.Sc from Siddharth University, U.P, he joined Prof. Katukojvala’s group at IISER Bhopal in July 2019 to pursue his Ph.D. Other than lab works he loves playing games.",
   },
   {
-    image: "images/members/rahul-chakrawarti.jpg",
+    image: "images/members/Rahul Chakrawarti.jpeg",
     name: "Rahul Chakrawarti",
     post: "Graduate Student",
     education: "M.Sc., VNIT Nagpur",
@@ -61,12 +61,62 @@ const currentMembers = [
       "Shavan was born and brought up in Hardoi, Uttar Pradesh. He has done his B.Sc from ARSD college, University of Delhi. After completing his M.Sc from Aligarh Muslim University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2024 to pursue his Ph.D. Other than lab works he loves playing cricket, kabaddi and reading books.",
   },
   {
+    image: "images/members/Aaditya Verma.jpeg",
+    name: "Sanchita Tripathi",
+    post: "Graduate Student",
+    education: "M.Sc., University of Lucknow",
+    linkedIn: "",
+    emailID: "sanchita25@iiserb.ac.in",
+    description:
+      "",
+  },
+  {
+    image: "images/members/Aaditya Verma.jpeg",
+    name: "Aaditya Verma",
+    post: "Graduate Student",
+    education: "M.Sc., University of Lucknow",
+    linkedIn: "",
+    emailID: "aaditya25@iiserb.ac.in",
+    description:
+      "",
+  },
+  {
+    image: "images/members/Piyush Singhal.jpeg",
+    name: "Piyush K. Singhal",
+    post: "Graduate Student",
+    education: "M.Sc., Central University of Haryana",
+    linkedIn: "",
+    emailID: "piyushks25@iiserb.ac.in",
+    description:
+      "",
+  },
+  {
+    image: "images/members/Piyush Singhal.jpeg",
+    name: "Shubham K. Chaturvedi",
+    post: "Graduate Student",
+    education: "M.Sc., Central University of Haryana",
+    linkedIn: "",
+    emailID: "piyushks25@iiserb.ac.in",
+    description:
+      "",
+  },
+  {
     image: "images/members/Ankan Das.jpeg",
     name: "Ankan Das",
     post: "MS, 2025",
     education: "IISER Bhopal",
     linkedIn: "",
     emailID: "ankan21@iiserb.ac.in",
+    description:
+      " ",
+  },
+  {
+    image: "images/members/Pamini Chandan.jpeg",
+    name: "Pamini Chandan",
+    post: "MS, 2025",
+    education: "IISER Bhopal",
+    linkedIn: "",
+    emailID: "chandan21@iiserb.ac.in",
     description:
       " ",
   },
