@@ -1,16 +1,6 @@
 
 const currentMembers = [
-  {
-    image: "images/members/Pratap Kumar Mandal.jpeg",
-    name: "Dr. Pratap Kumar Mandal",
-    post: "PhD, IISERB",
-    education: "",
-    linkedIn: "",
-    emailID: "pratap16@iiserb.ac.in",
-    description:
-      "Pratap was born and brought up in Haldia, West Bengal. He has done his B.Sc from Midnapore college. After completing his M.Sc from Pondicherry University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2017 to pursue his Ph.D. Other than lab works he loves playing badminton, cricket and listening audio stories.",
-  },
-  {
+ {
     image: "images/members/kamakshya-prasad-mahata.jpg",
     name: " Dr. Kamakshya Prasad Mahata",
     post: "Graduate Student",
@@ -61,7 +51,7 @@ const currentMembers = [
       "Shavan was born and brought up in Hardoi, Uttar Pradesh. He has done his B.Sc from ARSD college, University of Delhi. After completing his M.Sc from Aligarh Muslim University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2024 to pursue his Ph.D. Other than lab works he loves playing cricket, kabaddi and reading books.",
   },
   {
-    image: "images/members/Aaditya Verma.jpeg",
+    image: "images/members/Unknown Photo.jpeg",
     name: "Sanchita Tripathi",
     post: "Graduate Student",
     education: "M.Sc., University of Lucknow",
@@ -78,8 +68,8 @@ const currentMembers = [
     linkedIn: "",
     emailID: "aaditya25@iiserb.ac.in",
     description:
-      "",
-  },
+      "Aaditya was born and brought up in Siddharth Nagar, Uttar Pradesh. He has done his B.Sc from Lucknow Christian Degree College. After completing his M.Sc from University of Lucknow, he joined Prof. Katukojvala’s group at IISER Bhopal in August 2025 to pursue his Ph.D. Other than lab works he loves playing cricket, volley ball and reading books.",
+    },
   {
     image: "images/members/Piyush Singhal.jpeg",
     name: "Piyush K. Singhal",
@@ -88,17 +78,17 @@ const currentMembers = [
     linkedIn: "",
     emailID: "piyushks25@iiserb.ac.in",
     description:
-      "",
+      "Piyush was born and brought up in Sawai Madhopur, Rajasthan. He has done his B.Sc from Kota University. After completing his M.Sc from Central University of Haryana, he joined Prof. Katukojvala’s group at IISER Bhopal in August 2025 to pursue his Ph.D. Other than lab works he loves playing cricket and badminton.",
   },
   {
-    image: "images/members/Piyush Singhal.jpeg",
+    image: "images/members/Shubham K. Chaturvedi.jpeg",
     name: "Shubham K. Chaturvedi",
     post: "Graduate Student",
-    education: "M.Sc., Central University of Haryana",
+    education: "M.Sc., D.D.U. Gorakhpur University",
     linkedIn: "",
-    emailID: "piyushks25@iiserb.ac.in",
+    emailID: "shubhamk25@iiserb.ac.in",
     description:
-      "",
+      "Shubham was born and brought up in Gorakhpur, Uttar Pradesh. He has done his B.Sc and M.Sc from D.D.U. Gorakhpur University, he joined Prof. Katukojvala’s group at IISER Bhopal in August 2025 to pursue his Ph.D. Other than lab works he loves playing game and reading books.",
   },
   {
     image: "images/members/Ankan Das.jpeg",
@@ -108,7 +98,7 @@ const currentMembers = [
     linkedIn: "",
     emailID: "ankan21@iiserb.ac.in",
     description:
-      " ",
+      " Ankan was born and brought up in Tamluk, West Bengal. Currently he is pursuing his BS-MS degree from IISER Bhopal. He joined Prof. Katukojvala’s group at IISER Bhopal in May 2025 to pursue his master's degree. Other than lab works he loves playing cricket and watching movies.",
   },
   {
     image: "images/members/Pamini Chandan.jpeg",
@@ -118,11 +108,12 @@ const currentMembers = [
     linkedIn: "",
     emailID: "chandan21@iiserb.ac.in",
     description:
-      " ",
+      "Chandan was born and brought up in Berhampur, Odisha. Currently he is pursuing his BS-MS degree from IISER Bhopal. He joined Prof. Katukojvala’s group at IISER Bhopal in August 2025 to pursue his master's degree. Other than lab works he loves playing cricket and badminton. ",
   },
 ];
 
 const formerPHDStudents = [
+  { image: "images/members/Pratap Kumar Mandal.jpeg", name: "Dr. Pratap Kumar Mandal", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. Phil Ho Lee group, Kangwon National University, South Korea" },
   { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. David C. Powers group, Texas A & M University" },
   { image: "images/members/mohammad-arshad.png", name: "Dr. Mohammad Arshad", year: "Ph.D., 2024", linkedIn: "", description: "Chemistry Lecturer at B.R.K Inter College Mau, Uttar Pradesh." },
   { image: "images/members/laxman.png", name: "Dr. Laxman Thorbole", year: "Ph.D., 2023", linkedIn: "", description: "Currently working as a Chemist at Macleods, Mumbai." },
@@ -137,10 +128,10 @@ const formerPHDStudents = [
 
 const formerMScStudents = [
   { image: "images/members/Debopam Ray.jpg", name: "Debopam Ray", year: "M.S., 2025", linkedIn: "", description: "" },
-  { image: "images/members/Shubham BSMS 2024.jpeg", name: "Shubham", year: "M.S., 2025", linkedIn: "", description: "" },
+  { image: "images/members/Shubham BSMS 2024.jpeg", name: "Shubham", year: "M.S., 2025", linkedIn: "", description: "Project Associate in Prof. Prem Felix Siril's Group, IIT Mandi" },
   { image: "images/members/Shila Maji.jpg", name: "Shila Maji", year: "MSc, 2025", linkedIn: "", description: "" },
-  { image: "images/members/durjay-roy.jpg", name: "Durjay Roy", year: "M.S., 2024", linkedIn: "", description: "" },
-  { image: "images/members/rachit-singh-chauhan.jpg", name: "Rachit Singh Chauhan", year: "M.S., 2024", linkedIn: "", description: "Project Student in Prof. Debabrata Maiti's Group, IIT Bombay " },
+  { image: "images/members/durjay-roy.jpg", name: "Durjay Roy", year: "M.S., 2024", linkedIn: "", description: "Ph.D. Student in Stony Brook University" },
+  { image: "images/members/rachit-singh-chauhan.jpg", name: "Rachit Singh Chauhan", year: "M.S., 2024", linkedIn: "", description: "Ph.D. Student in Prof. Magnus Rueping's Group, KAUST" },
   { image: "images/members/Nitesh Jarwal.jpeg", name: "Nitesh Jarwal", year: "M.S., 2023", linkedIn: "", description: "" },
   { image: "images/members/Siddhant Amol Ganvir.jpeg", name: "Siddhant Amol Ganvir", year: "M.S., 2023", linkedIn: "", description: "" },
   { image: "images/members/Pallav Sharma.JPG", name: "Pallav Sharma", year: "M.S., 2022", linkedIn: "", description: "" },
