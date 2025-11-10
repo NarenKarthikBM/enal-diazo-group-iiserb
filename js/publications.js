@@ -12,6 +12,17 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 38,
+    title: "Photochemical Carbene-Transfer Reaction of Vinyldiazo Compounds: Synthesis of 1-Pyrrolines via Methylenation/[2+3] Annulation",
+    authors: "Chayan Kumar Kundu,  Shubham, and Sreenivas Katukojvala*",
+    link: "https://pubs.acs.org/doi/full/10.1021/acs.orglett.5c04229",
+    tag: "Org. Lett. 2025 ASAP ",
+    leftCover: "37 Cover.jpg",
+    rightCover: "",
+    fig: "38.jpg",
+    selected: false,
+  },
+  {
     id: 37,
     title: "Enal Transfer via Piano-Stool Rh-Enalcarbenoids: Rapid Construction of Enal-Functionalized Isoquinolones, Application Toward Benzo[c]phenanthridinone Scaffolds",
     authors: "Pratap Kumar Mandal, Sudhir Muduli and Sreenivas Katukojvala*",
