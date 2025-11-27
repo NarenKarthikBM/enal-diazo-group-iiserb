@@ -12,12 +12,23 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 39,
+    title: "Rhodium-Catalyzed Enal Transfer Reactions of Diazoenals: Application to Diastereoselective Synthesis of Dienal-Cyclopropanes",
+    authors: "Kamakshya Prasad Mahata, Sudhir Muduli, Sreenivas Katukojvala*",
+    link: "https://www.thieme-connect.com/products/ejournals/html/10.1055/a-2746-2709",
+    tag: " doi: 10.1055/a-2746-2709",
+    leftCover: "Synlett.jpg",
+    rightCover: "",
+    fig: "39.png",
+    selected: false,
+  },
+  {
     id: 38,
     title: "Photochemical Carbene-Transfer Reaction of Vinyldiazo Compounds: Synthesis of 1-Pyrrolines via Methylenation/[2+3] Annulation",
     authors: "Chayan Kumar Kundu,  Shubham, and Sreenivas Katukojvala*",
     link: "https://pubs.acs.org/doi/full/10.1021/acs.orglett.5c04229",
-    tag: "Org. Lett. 2025 ASAP ",
-    leftCover: "37 Cover.jpg",
+    tag: "Org. Lett. 2025, 27, 46, 12856–12861 ",
+    leftCover: "38 Cover.jpg",
     rightCover: "",
     fig: "38.jpg",
     selected: false,
