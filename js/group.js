@@ -117,6 +117,7 @@ const formerPHDStudents = [
   { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. David C. Powers group, Texas A & M University" },
   { image: "images/members/mohammad-arshad.png", name: "Dr. Mohammad Arshad", year: "Ph.D., 2024", linkedIn: "", description: "Chemistry Lecturer at B.R.K Inter College Mau, Uttar Pradesh." },
   { image: "images/members/laxman.png", name: "Dr. Laxman Thorbole", year: "Ph.D., 2023", linkedIn: "", description: "Currently working as a Chemist at Macleods, Mumbai." },
+  { image: "images/members/Jitendra Kumar Tiwari.JPG", name: "Jitendra K. Tiwari", year: "2018 - 2021", linkedIn: "", description: "Chemistry Lecturer at P. N. S. J. Inter College, Gorakhpur, Uttar Pradesh. " },
   { image: "images/members/Haribabu Chennamsetti.jpeg", name: "Dr. Haribabu Chennamsetti", year: "Ph.D., 2019", linkedIn: "", description: "Associate Scientist at Aragen LifeSciences Pvt Ltd." },
   { image: "images/members/Bapurao Sudam Lad.jpeg", name: "Dr. Bapurao Sudam Lad", year: "Ph.D., 2018", linkedIn: "", description: "" },
   { image: "images/members/Dharmendra Singh.jpeg", name: "Dharmendra Singh", year: "2017 - 2018", linkedIn: "", description: "Currently Working as a Chemist at ONGC" },

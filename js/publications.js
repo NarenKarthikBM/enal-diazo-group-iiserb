@@ -1,5 +1,6 @@
 
 const groupNews = [
+  { date: "March 2025", message: "Dr. Pratap joined as a Postdoc in Prof. Phil Ho Lee group, Kangwon National University, South Korea." },
   { date: "March 2025", message: "Dr. Saikat joined as a Postdoc in Prof. David C. Powers group, Texas A & M University." },
   { date: "Nov 2024", message: "Dr. Vinay Joined University of Hyderabad as the faculty in the School of Chemistry." },
   { date: "2023", message: "Dr. Laxman joined as a chemist at Macleods, Mumbai." },
@@ -16,7 +17,7 @@ const publicationsList = [
     title: "Rhodium-Catalyzed Enal Transfer Reactions of Diazoenals: Application to Diastereoselective Synthesis of Dienal-Cyclopropanes",
     authors: "Kamakshya Prasad Mahata, Sudhir Muduli, Sreenivas Katukojvala*",
     link: "https://www.thieme-connect.com/products/ejournals/html/10.1055/a-2746-2709",
-    tag: " doi: 10.1055/a-2746-2709",
+    tag: " doi: 10.1055/a-2746-2709 (Published as part of the Special Issue dedicated to Prof. S. Chandrasekaran on his 80th birthday)",
     leftCover: "Synlett.jpg",
     rightCover: "",
     fig: "39.png",
@@ -31,7 +32,7 @@ const publicationsList = [
     leftCover: "38 Cover.jpg",
     rightCover: "",
     fig: "38.jpg",
-    selected: false,
+    selected: true,
   },
   {
     id: 37,
