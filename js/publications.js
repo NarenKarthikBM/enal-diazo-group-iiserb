@@ -13,6 +13,28 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 41,
+    title: "Celebrating Indian Institutes of Science Education and Research Bhopal (IISERB) 15th Anniversary ",
+    authors: "",
+    link: "https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1521-3773.IISERB-15th-anniv",
+    tag: "Angewandte Chemie International Edition",
+    leftCover: "Angewandte-Chemie-International-Edition-1280x640.jpg",
+    rightCover: "",
+    fig: "",
+    selected: false,
+  },
+  {
+    id: 40,
+    title: "Diazoenals as 4[C]-Reagents Towards Direct Synthesis of 2,2′-Bis(indolyl)methanes from 2,2′-Dipyrromethanes",
+    authors: "Chayan Kumar Kundu, Ankan Das, Pallav Sharma, Sreenivas Katukojvala*",
+    link: "",
+    tag: "Accepted",
+    leftCover: "EJOC Cover.webp",
+    rightCover: "",
+    fig: "40.jpg",
+    selected: false,
+  },
+  {
     id: 39,
     title: "Rhodium-Catalyzed Enal Transfer Reactions of Diazoenals: Application to Diastereoselective Synthesis of Dienal-Cyclopropanes",
     authors: "Kamakshya Prasad Mahata, Sudhir Muduli, Sreenivas Katukojvala*",

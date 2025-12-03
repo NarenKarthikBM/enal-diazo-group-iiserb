@@ -135,7 +135,7 @@ const formerMScStudents = [
   { image: "images/members/rachit-singh-chauhan.jpg", name: "Rachit Singh Chauhan", year: "M.S., 2024", linkedIn: "", description: "Ph.D. Student in Prof. Magnus Rueping's Group, KAUST" },
   { image: "images/members/Nitesh Jarwal.jpeg", name: "Nitesh Jarwal", year: "M.S., 2023", linkedIn: "", description: "" },
   { image: "images/members/Siddhant Amol Ganvir.jpeg", name: "Siddhant Amol Ganvir", year: "M.S., 2023", linkedIn: "", description: "" },
-  { image: "images/members/Pallav Sharma.JPG", name: "Pallav Sharma", year: "M.S., 2022", linkedIn: "", description: "" },
+  { image: "images/members/Pallav Sharma.JPG", name: "Pallav Sharma", year: "M.S., 2022", linkedIn: "", description: "Ph.D. Student in Prof. Dongho Lee Group, University of Ulsan, Republic of Korea" },
   { image: "images/members/Shubham Singh.jpeg", name: "Shubham Singh", year: "M.S., 2021", linkedIn: "", description: "" },
   { image: "images/members/Pavan Goturi.jpg", name: "Pavan Goturi", year: "M.S., 2020", linkedIn: "", description: "" },
   { image: "images/members/Parvesh Dagar.jpg", name: "Parvesh Dagar", year: "M.S., 2020", linkedIn: "", description: "" },
