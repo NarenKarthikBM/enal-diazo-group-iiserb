@@ -13,6 +13,17 @@ const groupNews = [
 ];
 const publicationsList = [
   {
+    id: 42,
+    title: "[4 + 3] Annulation of diazoenals and 3-substituted 2-oxindoles: rapid access to indolo-oxazepines and a 5-HT4 receptor antagonist core",
+    authors: "Bapurao Sudam Lad, Chayan Kumar Kundu, Sanchita Tripathi and Sreenivas Katukojvala",
+    link: "https://pubs.rsc.org/en/content/articlelanding/2026/ob/d5ob01964h",
+    tag: "Org. Biomol. Chem., 2026",
+    leftCover: "42.jpg",
+    rightCover: "",
+    fig: "42.png",
+    selected: false,
+  },
+  {
     id: 41,
     title: "Celebrating Indian Institutes of Science Education and Research Bhopal (IISERB) 15th Anniversary ",
     authors: "",
@@ -27,8 +38,8 @@ const publicationsList = [
     id: 40,
     title: "Diazoenals as 4[C]-Reagents Towards Direct Synthesis of 2,2′-Bis(indolyl)methanes from 2,2′-Dipyrromethanes",
     authors: "Chayan Kumar Kundu, Ankan Das, Pallav Sharma, Sreenivas Katukojvala*",
-    link: "",
-    tag: "Accepted",
+    link: "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/ejoc.202501045?af=R",
+    tag: "European Journal of Organic Chemistry, 2026; 29:e202501045",
     leftCover: "EJOC Cover.webp",
     rightCover: "",
     fig: "40.jpg",

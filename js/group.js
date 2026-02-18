@@ -1,25 +1,6 @@
 
 const currentMembers = [
- {
-    image: "images/members/kamakshya-prasad-mahata.jpg",
-    name: " Dr. Kamakshya Prasad Mahata",
-    post: "Graduate Student",
-    education: "M.Sc., BHU",
-    linkedIn: "",
-    emailID: "kamakshya18@iiserb.ac.in",
-    description:
-      "Kamakshya Prasad  was born and brought up in Purulia, West Bengal. He did his B.Sc from J.K. college, Purulia and completed his M.Sc from B.H.U, Varanasi. He joined Dr.  Katukojvala’s group at IISER Bhopal in January 2019 to pursue his Doctoral Programme. Other than Lab. works, he loves playing Keyboard, watching/playing cricket and reading books.",
-  },
-  {
-    image: "images/members/Chayan Kumar Kundu.jpeg",
-    name: "Dr. Chayan Kumar Kundu",
-    post: "Graduate Student",
-    education: "M.Sc., Siddharth University, UP",
-    linkedIn: "",
-    emailID: "chayan19@iiserb.ac.in",
-    description:
-      "Chayan was born and brought up in Gonda, Uttar Pradesh. He has done his B.Sc from Dr. R. M. L. Awadh University, Ayodhya U.P. After completing his M.Sc from Siddharth University, U.P, he joined Prof. Katukojvala’s group at IISER Bhopal in July 2019 to pursue his Ph.D. Other than lab works he loves playing games.",
-  },
+ 
   {
     image: "images/members/Rahul Chakrawarti.jpeg",
     name: "Rahul Chakrawarti",
@@ -93,7 +74,7 @@ const currentMembers = [
   {
     image: "images/members/Ankan Das.jpeg",
     name: "Ankan Das",
-    post: "MS, 2025",
+    post: "MS project student, 2025",
     education: "IISER Bhopal",
     linkedIn: "",
     emailID: "ankan21@iiserb.ac.in",
@@ -103,16 +84,28 @@ const currentMembers = [
   {
     image: "images/members/Pamini Chandan.jpeg",
     name: "Pamini Chandan",
-    post: "MS, 2025",
+    post: "MS project student, 2025",
     education: "IISER Bhopal",
     linkedIn: "",
     emailID: "chandan21@iiserb.ac.in",
     description:
       "Chandan was born and brought up in Berhampur, Odisha. Currently he is pursuing his BS-MS degree from IISER Bhopal. He joined Prof. Katukojvala’s group at IISER Bhopal in August 2025 to pursue his master's degree. Other than lab works he loves playing cricket and badminton. ",
   },
+  {
+    image: "images/members/Sibangshu Barman.jpeg",
+    name: "Sibangshu Barman",
+    post: "MSc. project student, 2025",
+    education: "IISER Bhopal",
+    linkedIn: "",
+    emailID: "sibangshu24@iiserb.ac.in",
+    description:
+      "",
+  },
 ];
 
 const formerPHDStudents = [
+  { image: "images/members/CHayan Latest.jpeg", name: "Dr. Chayan Kumar Kundu", year: "Ph.D., 2024", linkedIn: "", description: "" },
+  { image: "images/members/kamakshya-prasad-mahata.jpg", name: "Dr. Kamakshya Prasad Mahata", year: "Ph.D., 2024", linkedIn: "", description: "" },
   { image: "images/members/Pratap Kumar Mandal.jpeg", name: "Dr. Pratap Kumar Mandal", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. Phil Ho Lee group, Kangwon National University, South Korea" },
   { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. David C. Powers group, Texas A & M University" },
   { image: "images/members/mohammad-arshad.png", name: "Dr. Mohammad Arshad", year: "Ph.D., 2024", linkedIn: "", description: "Chemistry Lecturer at B.R.K Inter College Mau, Uttar Pradesh." },
