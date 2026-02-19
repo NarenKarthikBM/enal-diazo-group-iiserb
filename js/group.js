@@ -104,8 +104,8 @@ const currentMembers = [
 ];
 
 const formerPHDStudents = [
-  { image: "images/members/Chayan Latest.jpeg", name: "Dr. Chayan Kumar Kundu", year: "Ph.D., 2024", linkedIn: "", description: "" },
-  { image: "images/members/kamakshya-prasad-mahata.jpg", name: "Dr. Kamakshya Prasad Mahata", year: "Ph.D., 2024", linkedIn: "", description: "" },
+  { image: "images/members/CHayan Latest.jpeg", name: "Dr. Chayan Kumar Kundu", year: "Ph.D., 2025", linkedIn: "", description: "" },
+  { image: "images/members/kamakshya-prasad-mahata.jpg", name: "Dr. Kamakshya Prasad Mahata", year: "Ph.D., 2025", linkedIn: "", description: "" },
   { image: "images/members/Pratap Kumar Mandal.jpeg", name: "Dr. Pratap Kumar Mandal", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. Phil Ho Lee group, Kangwon National University, South Korea" },
   { image: "images/members/saikat-chatterjee.png", name: "Dr. Saikat Chatterjee", year: "Ph.D., 2024", linkedIn: "", description: "Post-Doc position in Prof. David C. Powers group, Texas A & M University" },
   { image: "images/members/mohammad-arshad.png", name: "Dr. Mohammad Arshad", year: "Ph.D., 2024", linkedIn: "", description: "Chemistry Lecturer at B.R.K Inter College Mau, Uttar Pradesh." },
