@@ -32,7 +32,7 @@ const currentMembers = [
       "Shavan was born and brought up in Hardoi, Uttar Pradesh. He has done his B.Sc from ARSD college, University of Delhi. After completing his M.Sc from Aligarh Muslim University, he joined Prof. Katukojvala’s group at IISER Bhopal in January 2024 to pursue his Ph.D. Other than lab works he loves playing cricket, kabaddi and reading books.",
   },
   {
-    image: "images/members/Sanchita Tripathi.jpeg",
+    image: "",
     name: "Sanchita Tripathi",
     post: "Graduate Student",
     education: "M.Sc. Ratlam Govt. Arts and Science College ",
