@@ -17,7 +17,7 @@ const publicationsList = [
     title: "Metallo Protic N‑Allyl Enammonium Ylide 3‑Aza-Cope Rearrangement Enabled by Resonance-Assisted H‑Bonding: Direct Access to Functionalized Pyrroles",
     authors: "Laxman Anandrao Thorbole†, Sudhir Muduli†, Sreenivas Katukojvala*",
     link: "https://pubs.acs.org/doi/full/10.1021/acs.orglett.6c01121",
-    tag: "Org. Lett. 2026",
+    tag: "Org. Lett. 2026, 28, 16, 5242–5248",
     leftCover: "OL.jpg",
     rightCover: "",
     fig: "Sudhir 2024.jpg",
